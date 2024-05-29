@@ -44,11 +44,14 @@ export default function Header1({
                         <div className="mega-menu-wrapper">
                             <div className="header-main style-2">
                                 <div className="header-left">
-                                    <div className="logo">
-                                        <Link href="/" className="header-logo">
-                                            <img src="/assets/img/logo/black-logo.svg" alt="logo-img" />
-                                        </Link>
-                                    </div>
+                               <div className="logo">
+    <Link href="/">
+        <a className="header-logo">
+            <img src="/assets/img/logo/apointoo-logo-gradiente.svg" alt="logo-apointoo" />
+        </a>
+    </Link>
+</div>
+
                                 </div>
                                 <div className="header-right d-flex justify-content-end align-items-center">
                                     <div className="mean__menu-wrapper">

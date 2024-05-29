@@ -52,7 +52,7 @@ export default function Header2({
                             <div className="header-main">
                                 <div className="logo d-none">
                                     <Link href="/" className="header-logo">
-                                        <img src="/assets/img/logo/black-logo.svg" alt="logo-img" />
+                                            <img src="/assets/img/logo/apointoo-logo-gradiente.svg" alt="logo-apointoo" />
                                     </Link>
                                 </div>
                                 <div className="header-left">

@@ -21,11 +21,12 @@ export default function Header4({
                         <div className="mega-menu-wrapper">
                             <div className="header-main">
                                 <div className="header-left">
-                                    <div className="logo">
-                                        <Link href="/" className="header-logo">
-                                            <img src="/assets/img/logo/black-logo.svg" alt="logo-img" />
-                                        </Link>
-                                    </div>
+    <div className="logo">
+        <Link href="/" className="header-logo">
+            <img src="/assets/img/logo/apointoo-logo-gradiente.svg" alt="logo-apointoo" />
+        </Link>
+    </div>
+
                                 </div>
                                 <div className="header-right d-flex justify-content-end align-items-center">
                                     <div className="mean__menu-wrapper">
@@ -43,7 +44,7 @@ export default function Header4({
                                     <div className="header-button">
                                         <Link href="/contact" className="theme-btn">
                                             <span>
-                                                get A Quote
+                                                Get A Quote
                                                 <i className="fa-solid fa-arrow-right-long" />
                                             </span>
                                         </Link>

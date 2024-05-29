@@ -6,7 +6,8 @@ export default function WorkProcess1() {
             <section className="work-process-section fix section-padding pt-0">
                 <div className="container">
                     <div className="section-title text-center">
-                        <span>How IT work</span>
+                        <span>How Apointoo Works
+</span>
                         <h2>Standard Work Process</h2>
                     </div>
                     <div className="process-work-wrapper">
@@ -23,19 +24,18 @@ export default function WorkProcess1() {
                                         </h6>
                                     </div>
                                     <div className="content">
-                                        <h4>Choose A Service</h4>
+                                        <h4>Initial Setup</h4>
                                         <p>
-                                            In a free hour, when our power of choice is untrammeled and
-                                        </p>
+Our team handles the entire integration process, ensuring minimal disruption to your practice.                                        </p>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-xl-3 col-lg-4 col-md-6">
                                 <div className="work-process-items text-center">
                                     <div className="content style-2">
-                                        <h4>Define Requirements</h4>
+                                        <h4>Customization</h4>
                                         <p>
-                                            In a free hour, when our power of choice is untrammeled and
+Tailor the scheduling interface to match your practice's workflow.
                                         </p>
                                     </div>
                                     <div className="icon">

@@ -10,17 +10,16 @@ export default function Hero4() {
                     <div className="row g-4 align-items-center">
                         <div className="col-lg-6">
                             <div className="hero-content">
-                                <h6 className="wow fadeInUp">Applying Data security</h6>
-                                <h1 className="wow fadeInUp" data-wow-delay=".3s">Security Analytics For Big Data.</h1>
+                                <h6 className="wow fadeInUp">patient scheduling software</h6>
+                                <h1 className="wow fadeInUp" data-wow-delay=".3s">Integrate Patient Scheduling with Your EHR</h1>
                                 <p className="wow fadeInUp" data-wow-delay=".5s">
-                                    Consectetur adipiscing elit aenean scelerisque at augue vitae consequat quisque eget congue velit in cursus leo sed sodales est eget turpis.
-                                </p>
+Apointoo is an advanced patient scheduling software designed to streamline the process of managing appointments in healthcare settings.                                </p>
                                 <div className="hero-button">
-                                    <Link href="/about" className="theme-btn wow fadeInUp" data-wow-delay=".7s">
-                                        Explore More
+                                    <Link href="https://demo.apointoo.com/" className="theme-btn wow fadeInUp" data-wow-delay=".7s">
+                                        Explore our Demo
                                         <i className="fa-solid fa-arrow-right-long" />
                                     </Link>
-                                    <VideoPopup style={3}/>
+                                  {/*  <VideoPopup style={3}/>*/}
                                 </div>
                             </div>
                         </div>

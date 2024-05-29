@@ -52,7 +52,7 @@ export default function Testimonial3() {
                     <div className="section-title text-center">
                         <span className="text-white">Testimonials</span>
                         <h2 className="text-white">
-                            People Who Already Love Us
+                        Doctors Who Trust Us
                         </h2>
                     </div>
                     <div className="swiper testimonial-slider-2">
@@ -65,8 +65,8 @@ export default function Testimonial3() {
                                     <div className="client-items">
                                         <div className="client-image style-2 bg-cover" style={{ backgroundImage: 'url("assets/img/testimonial/02.jpg")' }} />
                                         <div className="client-content">
-                                            <h4>Kathryn Murphy</h4>
-                                            <p>Web Designer</p>
+                                            <h4>Dr. Kai Valle</h4>
+                                            <p>Doctor</p>
                                             <div className="star">
                                                 <i className="fas fa-star" />
                                                 <i className="fas fa-star" />
@@ -77,7 +77,7 @@ export default function Testimonial3() {
                                         </div>
                                     </div>
                                     <p>
-                                        Consectetur adipiscing elit. Integer nunc viverra laoreet est the is porta pretium metus aliquam eget maecenas porta is nunc viverra Aenean pulvinar maximus leo ”
+                                        "Since switching to Apointoo, scheduling has become efficient. The EHR integration is flawless, and the support team is always there when needed. It’s a huge help in managing my busy schedule."
                                     </p>
                                 </div>
                             </SwiperSlide>
@@ -89,8 +89,8 @@ export default function Testimonial3() {
                                     <div className="client-items">
                                         <div className="client-image style-2 bg-cover" style={{ backgroundImage: 'url("assets/img/testimonial/03.jpg")' }} />
                                         <div className="client-content">
-                                            <h4>Albert Flores</h4>
-                                            <p>Medical Assistant</p>
+                                            <h4>Dr. Frank Antrikin</h4>
+                                            <p>Doctor</p>
                                             <div className="star">
                                                 <i className="fas fa-star" />
                                                 <i className="fas fa-star" />
@@ -101,7 +101,7 @@ export default function Testimonial3() {
                                         </div>
                                     </div>
                                     <p>
-                                        Consectetur adipiscing elit. Integer nunc viverra laoreet est the is porta pretium metus aliquam eget maecenas porta is nunc viverra Aenean pulvinar maximus leo ”
+                                        "Apointoo makes managing appointments a breeze. The customizable booking interface is user-friendly, and the advanced analytics provide useful insights. It's improved our workflow and patient satisfaction."
                                     </p>
                                 </div>
                             </SwiperSlide>
@@ -113,8 +113,8 @@ export default function Testimonial3() {
                                     <div className="client-items">
                                         <div className="client-image style-2 bg-cover" style={{ backgroundImage: 'url("assets/img/testimonial/02.jpg")' }} />
                                         <div className="client-content">
-                                            <h4>Kathryn Murphy</h4>
-                                            <p>Web Designer</p>
+                                            <h4>Dr. Steve Luskey</h4>
+                                            <p>Doctor</p>
                                             <div className="star">
                                                 <i className="fas fa-star" />
                                                 <i className="fas fa-star" />
@@ -125,7 +125,7 @@ export default function Testimonial3() {
                                         </div>
                                     </div>
                                     <p>
-                                        Consectetur adipiscing elit. Integer nunc viverra laoreet est the is porta pretium metus aliquam eget maecenas porta is nunc viverra Aenean pulvinar maximus leo ”
+                                        "With Apointoo, our practice runs smoother. The seamless EHR integration and automated data management save us time. The security features ensure patient data is protected."
                                     </p>
                                 </div>
                             </SwiperSlide>
@@ -137,8 +137,8 @@ export default function Testimonial3() {
                                     <div className="client-items">
                                         <div className="client-image style-2 bg-cover" style={{ backgroundImage: 'url("assets/img/testimonial/03.jpg")' }} />
                                         <div className="client-content">
-                                            <h4>Albert Flores</h4>
-                                            <p>Medical Assistant</p>
+                                            <h4>Dr. Ethel Hendren</h4>
+                                            <p>Doctor</p>
                                             <div className="star">
                                                 <i className="fas fa-star" />
                                                 <i className="fas fa-star" />
@@ -149,7 +149,7 @@ export default function Testimonial3() {
                                         </div>
                                     </div>
                                     <p>
-                                        Consectetur adipiscing elit. Integer nunc viverra laoreet est the is porta pretium metus aliquam eget maecenas porta is nunc viverra Aenean pulvinar maximus leo ”
+                                        "Apointoo makes managing appointments a breeze. The customizable booking interface is user-friendly, and the advanced analytics provide useful insights. It's improved our workflow and patient satisfaction."
                                     </p>
                                 </div>
                             </SwiperSlide>
