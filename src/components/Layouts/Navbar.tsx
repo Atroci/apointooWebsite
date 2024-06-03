@@ -3,7 +3,7 @@
 import React, { useState, useEffect } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import MenuItem from "./MenuItem"; 
+import MenuItem from "./MenuItem";
 import { menus } from "../../../libs/menus";
 
 import logo from "../../../public/images/white-logo.png";
@@ -66,8 +66,8 @@ const Navbar: React.FC = () => {
               </ul>
 
               <div className="others-options">
-                <Link href="/auth/login/" className="default-btn">
-                  Log In <i className="bx bx-log-in-circle"></i>
+                <Link href="/contact" className="default-btn">
+                  Get a Quote <i className="bx bx-log-in-circle"></i>
                 </Link>
               </div>
             </div>
