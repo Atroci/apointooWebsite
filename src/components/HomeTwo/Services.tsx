@@ -16,7 +16,7 @@ const servicesData = [
     iconName: "flaticon-chip",
     title: "Seamless EHR Integration",
     shortText:
-      "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
+      "Effortlessly integrate with your existing EHR system to streamline your practice's scheduling and management.",
     viewDetails: "/services/service-details/",
     aosDelay: "400",
   },
@@ -24,7 +24,7 @@ const servicesData = [
     iconName: "flaticon-vr",
     title: "Customizable Booking Interface",
     shortText:
-      "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
+      "Use the interface of your choice for a personalized and comfortable user experience.",
     viewDetails: "/services/service-details/",
     aosDelay: "500",
   },
@@ -32,7 +32,7 @@ const servicesData = [
     iconName: "flaticon-blockchain",
     title: "Advanced Analytics",
     shortText:
-      "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
+      "Gain valuable insights with advanced analytics to improve efficiency and patient care.",
     viewDetails: "/services/service-details/",
     aosDelay: "600",
   },
@@ -40,7 +40,7 @@ const servicesData = [
     iconName: "flaticon-target",
     title: "Automated Data Management",
     shortText:
-      "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
+      "Automate the management of patient data, ensuring accuracy and reducing manual workload.",
     viewDetails: "/services/service-details/",
     aosDelay: "700",
   },
@@ -48,7 +48,7 @@ const servicesData = [
     iconName: "flaticon-choice",
     title: "Dedicated Support and Continuous Enhancements",
     shortText:
-      "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
+      "Benefit from our 24/7 support and regular performance enhancements to keep your system running smoothly.",
     viewDetails: "/services/service-details/",
     aosDelay: "800",
   },
@@ -56,7 +56,7 @@ const servicesData = [
     iconName: "flaticon-deep-learning",
     title: "Enhanced Security and Compliance",
     shortText:
-      "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
+      "Protect patient data with secure, encrypted communications, ensuring compliance with HIPAA and other regulations.",
     viewDetails: "/services/service-details/",
     aosDelay: "900",
   },

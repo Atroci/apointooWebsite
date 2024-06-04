@@ -30,15 +30,14 @@ const About: React.FC = () => {
                 data-aos-duration="800"
                 data-aos-delay="900"
               >
-                <span>About Us</span>
+                <span>Appointment Booking Software</span>
                 <h2>
-                  We Complete Every Project With Extra Care As Customer Need
+                  Effortlessly Manage Your Appointments with Advanced Features
                 </h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel.
+                  Streamline your scheduling process with our intuitive and
+                  automated booking software, designed to meet the unique needs
+                  of your practice.
                 </p>
 
                 <div className="row">
@@ -46,15 +45,15 @@ const About: React.FC = () => {
                     <ul>
                       <li>
                         <i className="flaticon-checked"></i>
-                        Advanced caching
+                        Seamless Integration
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        Unlimited applications
+                        Availability Management
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        PHP 7 ready transfer
+                        Fast setup
                       </li>
                     </ul>
                   </div>
@@ -63,15 +62,15 @@ const About: React.FC = () => {
                     <ul>
                       <li>
                         <i className="flaticon-checked"></i>
-                        PHP ready serves
+                        No Learning Curve
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        24/7 Free extra support
+                        Customizable Scheduling
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        Optimized stack
+                        Secure and Compliant
                       </li>
                     </ul>
                   </div>
