@@ -22,12 +22,16 @@ export default function Page() {
 
       <Features />
 
+      {/*
+      
       <About />
 
       <Services />
 
       <Newsletter />
-      {/*<Pricing />
+        <News />
+      --------------------------
+      <Pricing />
       <Testimonials />
 
       <MakeYourBusiness />
@@ -39,8 +43,6 @@ export default function Page() {
             <WhatWeOffer />
 
       */}
-
-      <News />
 
       <Footer />
     </>
