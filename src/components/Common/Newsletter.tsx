@@ -20,7 +20,7 @@ const Newsletter: React.FC = () => {
                 data-aos-duration="800"
                 data-aos-delay="700"
               >
-                <h2>Sign Up To The Free Newsletter</h2>
+                <h2>Schedule a Demo</h2>
 
                 <form className="newsletter-form">
                   <input
@@ -31,7 +31,7 @@ const Newsletter: React.FC = () => {
                     required
                   />
                   <button className="default-btn" type="submit">
-                    Subscribe
+                    Schedule
                   </button>
                 </form>
               </div>
@@ -61,7 +61,7 @@ const Newsletter: React.FC = () => {
                 data-aos-delay="900"
               >
                 <h2>Sign Up To The Free Newsletter</h2>
-                <span>+882-569-756</span>
+                <span></span>
               </div>
             </div>
           </div>

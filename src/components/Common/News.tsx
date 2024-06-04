@@ -14,8 +14,8 @@ const News: React.FC = () => {
       <div className="news-area pt-100 pb-70">
         <div className="container">
           <div className="section-title">
-            <span>Latest News</span>
-            <h2>Our Recent News </h2>
+            <span></span>
+            <h2>Our Recent Articles and Tips</h2>
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut
               ipsum fugit temporibus possimus itaque accusamus voluptatibus

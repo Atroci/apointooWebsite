@@ -27,10 +27,8 @@ const Footer = () => {
                 </Link>
 
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Quaerat molestiae corporis, magni maxime perferendis ducimus
-                  totam officiis sit exercitationem sed odio debitis minus
-                  cumque dolores dicta.
+                  Appointment booking software designed to increase appointments
+                  and streamline scheduling for healthcare practices.
                 </p>
 
                 <ul className="social-icon">
@@ -70,37 +68,19 @@ const Footer = () => {
                   <li>
                     <Link href="/services/service-details/">
                       <i className="right-icon bx bx-chevrons-right"></i>
-                      Big Data
+                      Appointment Booking Software
                     </Link>
                   </li>
                   <li>
                     <Link href="/services/service-details/">
                       <i className="right-icon bx bx-chevrons-right"></i>
-                      UI/UX Design
+                      Custom Integration Services
                     </Link>
                   </li>
                   <li>
                     <Link href="/services/service-details/">
                       <i className="right-icon bx bx-chevrons-right"></i>
-                      Desktop Application
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/services/service-details/">
-                      <i className="right-icon bx bx-chevrons-right"></i>
-                      Mobile Application
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/services/service-details/">
-                      <i className="right-icon bx bx-chevrons-right"></i>
-                      Product Engineering
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/services/service-details/">
-                      <i className="right-icon bx bx-chevrons-right"></i>
-                      Machine Learning
+                      Custom Booking Solutions
                     </Link>
                   </li>
                 </ul>
@@ -167,23 +147,23 @@ const Footer = () => {
                 <h3>Information</h3>
 
                 <ul className="information">
-                  <li className="address">
+                  {/* <li className="address">
                     <i className="flaticon-call"></i>
                     <span>Phone</span>
                     +882-569-756
                   </li>
-
+*/}
                   <li className="address">
                     <i className="flaticon-envelope"></i>
                     <span>Email</span>
-                    hello@jumpx.com
+                    apointoo@vizuh.com
                   </li>
 
-                  <li className="address">
+                  {/*  <li className="address">
                     <i className="flaticon-maps-and-flags"></i>
                     <span>Address</span>
                     123, Western Road, Melbourne Australia
-                  </li>
+                  </li>*/}
                 </ul>
               </div>
             </div>
@@ -202,7 +182,7 @@ const Footer = () => {
           <div className="row align-items-center">
             <div className="col-lg-4">
               <div className="copy-right">
-                <p>Copyright &copy; {currentYear} Jumpx. All Rights Reserved</p>
+                {/* <p>Copyright &copy; {currentYear} Jumpx. All Rights Reserved</p>*/}
               </div>
             </div>
 
@@ -222,9 +202,12 @@ const Footer = () => {
             <div className="col-lg-3">
               <div className="designed">
                 <p>
-                  Designed By <i className="bx bx-heart"></i>{" "}
-                  <a href="https://envytheme.com/" target="_blank">
-                    EnvyTheme
+                  Developed By <i className="bx bx-heart"></i>{" "}
+                  <a
+                    href="https://vizuh.com/services/web-development"
+                    target="_blank"
+                  >
+                    Vizuh
                   </a>
                 </p>
               </div>
