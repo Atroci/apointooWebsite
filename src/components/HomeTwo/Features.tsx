@@ -6,25 +6,25 @@ import Link from "next/link";
 const featuresData = [
   {
     iconName: "bx bx-shopping-bag",
-    title: "Data Science",
+    title: "Appointment Booking Software",
     shortText:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.",
+      "Effortlessly manage and book appointments with our user-friendly, automated scheduling software.",
     viewDetails: "/services/service-details/",
     aosDelay: "300",
   },
   {
     iconName: "flaticon-engineer",
-    title: "Data Engineer",
+    title: "Custom Integration Services",
     shortText:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.",
+      "Seamlessly integrate your existing systems with Appointo for streamlined scheduling and data synchronization.",
     viewDetails: "/services/service-details/",
     aosDelay: "600",
   },
   {
     iconName: "flaticon-success",
-    title: "Facing AI Challenges",
+    title: "Custom Booking Solutions",
     shortText:
-      "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia, maxime ipsum praesentium culpa expedita.",
+      "Tailor-made booking systems designed to meet your unique business needs and enhance patient experience.",
     viewDetails: "/services/service-details/",
     aosDelay: "900",
   },

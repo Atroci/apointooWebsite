@@ -7,7 +7,7 @@ import Image from "next/image";
 import bannerMainImg from "../../../public/images/home-two/main-img2.png";
 
 // Banner Shape Images
-import bannerShape1 from "../../../public/images/home-two/shape1.png";
+import bannerShape1 from "../../../public/images/home-two/main-img2.png";
 import bannerShape2 from "../../../public/images/home-two/shape2.png";
 import bannerShape3 from "../../../public/images/home-two/shape3.png";
 import bannerShape4 from "../../../public/images/home-two/shape4.png";
@@ -36,7 +36,7 @@ const MainBanner: React.FC = () => {
                   data-aos-duration="800"
                   data-aos-delay="100"
                 >
-                  World’s Leading Machine Learning Company
+                  Increase Appointments with Seamless Open Dental Integration
                 </h1>
 
                 <p
@@ -44,9 +44,10 @@ const MainBanner: React.FC = () => {
                   data-aos-duration="800"
                   data-aos-delay="200"
                 >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida risus commodo
+                  Appointo offers a beautiful, simple, and elegant appointment
+                  booking software that integrates effortlessly with Open
+                  Dental. Designed to increase your appointments, it's easy to
+                  use, robust, and handles a variety of scheduling needs.
                 </p>
 
                 <div
@@ -55,12 +56,8 @@ const MainBanner: React.FC = () => {
                   data-aos-duration="800"
                   data-aos-delay="300"
                 >
-                  <Link href="/about" className="default-btn">
-                    Learn More
-                  </Link>
-
                   <Link href="/contact" className="default-btn">
-                    Contact Us
+                    Book a Call
                   </Link>
                 </div>
               </div>
@@ -72,13 +69,23 @@ const MainBanner: React.FC = () => {
                 <Image
                   src={bannerMainImg}
                   alt="Image"
+                  width={500}
+                  height={703}
+                />
+              </div>
+              {/* Main Image Desktop */}
+
+              <div className="banner-img">
+                <Image
+                  className="animate__animated animate__fadeInDown animate__faster"
+                  src={bannerShape1}
+                  alt="Image"
                   width={1020}
                   height={703}
                 />
               </div>
-
               {/* Banner Shape Images */}
-              <div className="banner-img">
+              {/* <div className="banner-img">
                 <Image
                   className="animate__animated animate__fadeInDown animate__faster"
                   src={bannerShape1}
@@ -122,7 +129,7 @@ const MainBanner: React.FC = () => {
                   height={143}
                 />
 
-                <Image
+                 <Image
                   className="animate__animated animate__fadeInDown animate__delay-0.1s"
                   src={bannerShape6}
                   alt="Image"
@@ -161,7 +168,7 @@ const MainBanner: React.FC = () => {
                   width={73}
                   height={45}
                 />
-              </div>
+              </div>*/}
             </div>
           </div>
         </div>

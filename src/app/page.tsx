@@ -26,21 +26,21 @@ export default function Page() {
 
       <Services />
 
-      <Pricing />
-
       <Newsletter />
-
-      <MakeYourBusiness />
-
+      {/*<Pricing />
       <Testimonials />
 
-      <WhatWeOffer />
-
-      <News />
-
+      <MakeYourBusiness />
+      
+      
       <div className="pb-50">
         <Partner />
       </div>
+            <WhatWeOffer />
+
+      */}
+
+      <News />
 
       <Footer />
     </>

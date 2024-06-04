@@ -14,7 +14,7 @@ import shapeImg6 from "../../../public/images/shape/services-shape/6.png";
 const servicesData = [
   {
     iconName: "flaticon-chip",
-    title: "Robotics & Drones",
+    title: "Seamless EHR Integration",
     shortText:
       "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
     viewDetails: "/services/service-details/",
@@ -22,7 +22,7 @@ const servicesData = [
   },
   {
     iconName: "flaticon-vr",
-    title: "Virtually Reality",
+    title: "Customizable Booking Interface",
     shortText:
       "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
     viewDetails: "/services/service-details/",
@@ -30,7 +30,7 @@ const servicesData = [
   },
   {
     iconName: "flaticon-blockchain",
-    title: "Blockchain Project",
+    title: "Advanced Analytics",
     shortText:
       "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
     viewDetails: "/services/service-details/",
@@ -38,7 +38,7 @@ const servicesData = [
   },
   {
     iconName: "flaticon-target",
-    title: "Image Processing",
+    title: "Automated Data Management",
     shortText:
       "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
     viewDetails: "/services/service-details/",
@@ -46,7 +46,7 @@ const servicesData = [
   },
   {
     iconName: "flaticon-choice",
-    title: "Order Management",
+    title: "Dedicated Support and Continuous Enhancements",
     shortText:
       "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
     viewDetails: "/services/service-details/",
@@ -54,7 +54,7 @@ const servicesData = [
   },
   {
     iconName: "flaticon-deep-learning",
-    title: "Machine Learning",
+    title: "Enhanced Security and Compliance",
     shortText:
       "Lorem consectetur ipsum dolor sit amet, adipiscing elit, do eiusmod tempor incididunt sed.",
     viewDetails: "/services/service-details/",
@@ -68,12 +68,12 @@ const Services: React.FC = () => {
       <div className="offer-area pt-100 pb-70">
         <div className="container">
           <div className="section-title">
-            <span>Services</span>
-            <h2>Our Professional Services For You</h2>
+            <span></span>
+            <h2>Why Apointoo?</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure
-              architecto quaerat eaque sapiente accusantium ad ut explicabo
-              consequuntur fuga quidem? Sint.
+              Apointoo is the premier solution for automating your practice
+              scheduling, designed to seamlessly integrate with your EHR and
+              cater to the unique needs of your healthcare practice.
             </p>
           </div>
 
