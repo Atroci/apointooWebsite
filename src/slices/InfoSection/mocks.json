@@ -1,0 +1,19 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"published_date": {
+				"__TYPE__": "FieldContent",
+				"type": "Date",
+				"value": "2017-02-06"
+			},
+			"posted_by": {
+				"__TYPE__": "FieldContent",
+				"value": "search",
+				"type": "Text"
+			}
+		},
+		"items": []
+	}
+]

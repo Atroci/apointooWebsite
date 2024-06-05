@@ -3,13 +3,13 @@
 		"__TYPE__": "SharedSliceContent",
 		"variation": "default",
 		"primary": {
-			"text": {
+			"quote": {
 				"__TYPE__": "StructuredTextContent",
 				"value": [
 					{
 						"type": "paragraph",
 						"content": {
-							"text": "Occaecat proident aliquip est aliquip irure eiusmod ipsum mollit quis mollit fugiat. Amet non adipisicing laborum occaecat veniam."
+							"text": "Irure culpa laborum non reprehenderit aliquip non in tempor anim."
 						}
 					}
 				]

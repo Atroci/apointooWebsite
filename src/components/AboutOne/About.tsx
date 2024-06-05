@@ -22,13 +22,32 @@ const About: React.FC = () => {
               <div className="about-content">
                 <span>About Us</span>
                 <h2>
-                  We Complete Every Project With Extra Care As Customer Need
+                  Effortlessly Manage Your Appointments with Advanced Features:
                 </h2>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus vel.
+                  At Appointo, we are committed to transforming the way
+                  healthcare practices manage their appointments. Our mission is
+                  to provide a seamless, user-friendly, and efficient scheduling
+                  solution that integrates effortlessly with Open Dental,
+                  enhancing your practice’s ability to manage and increase
+                  appointments.
+                </p>
+                <p>
+                  We are a dedicated team of Brazilian developers based in
+                  Lisbon, Portugal, with over five years of experience working
+                  with healthcare clients in the USA, Portugal, and Brazil. Our
+                  expertise spans various facets of digital marketing, allowing
+                  us to understand and meet the unique needs of healthcare
+                  practices.
+                </p>
+                <p>
+                  Our goal is to make Appointo a go-to solution for in-house or
+                  outsourced marketing teams, as well as small business owners
+                  who lack the time to research new booking solutions, train
+                  staff, or deal with implementation downtime. We strive to
+                  deliver solutions that require no effort from the office side,
+                  while increasing conversions and satisfaction in the booking
+                  process.
                 </p>
 
                 <div className="row">
@@ -36,15 +55,15 @@ const About: React.FC = () => {
                     <ul>
                       <li>
                         <i className="flaticon-checked"></i>
-                        Advanced caching
+                        Seamless EHR Integration
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        Unlimited applications
+                        Customizable Booking Interface
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        PHP 7 ready transfer
+                        Advanced Analytics
                       </li>
                     </ul>
                   </div>
@@ -53,15 +72,15 @@ const About: React.FC = () => {
                     <ul>
                       <li>
                         <i className="flaticon-checked"></i>
-                        PHP ready serves
+                        Automated Data Management
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        24/7 Free extra support
+                        24/7 Dedicated Support
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        Optimized stack
+                        Enhanced Security and Compliance
                       </li>
                     </ul>
                   </div>

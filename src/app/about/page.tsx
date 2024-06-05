@@ -22,10 +22,10 @@ export default function Page() {
 
       <About />
 
-      <MakeYourBusiness />
-
       <Testimonials />
       {/*
+            <MakeYourBusiness />
+
       <TeamTwo />
 
       <div className="pb-10">

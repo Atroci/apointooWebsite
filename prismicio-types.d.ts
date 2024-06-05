@@ -4,7 +4,11 @@ import type * as prismic from "@prismicio/client";
 
 type Simplify<T> = { [KeyType in keyof T]: T[KeyType] };
 
-type BlogpostDocumentDataSlicesSlice = never;
+type BlogpostDocumentDataSlicesSlice =
+  | QuoteSlice
+  | FeaturedImageSlice
+  | InfoSectionSlice
+  | TextBlockSlice;
 
 /**
  * Content for BlogPost documents
@@ -137,6 +141,163 @@ export type ServicesDocument<Lang extends string = string> =
 export type AllDocumentTypes = BlogpostDocument | ServicesDocument;
 
 /**
+ * Primary content in *FeaturedImage → Default → Primary*
+ */
+export interface FeaturedImageSliceDefaultPrimary {
+  /**
+   * Image field in *FeaturedImage → Default → Primary*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: featured_image.default.primary.image
+   * - **Documentation**: https://prismic.io/docs/field#image
+   */
+  image: prismic.ImageField<never>;
+}
+
+/**
+ * Default variation for FeaturedImage Slice
+ *
+ * - **API ID**: `default`
+ * - **Description**: Default
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type FeaturedImageSliceDefault = prismic.SharedSliceVariation<
+  "default",
+  Simplify<FeaturedImageSliceDefaultPrimary>,
+  never
+>;
+
+/**
+ * Slice variation for *FeaturedImage*
+ */
+type FeaturedImageSliceVariation = FeaturedImageSliceDefault;
+
+/**
+ * FeaturedImage Shared Slice
+ *
+ * - **API ID**: `featured_image`
+ * - **Description**: FeaturedImage
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type FeaturedImageSlice = prismic.SharedSlice<
+  "featured_image",
+  FeaturedImageSliceVariation
+>;
+
+/**
+ * Primary content in *InfoSection → Default → Primary*
+ */
+export interface InfoSectionSliceDefaultPrimary {
+  /**
+   * Published Date field in *InfoSection → Default → Primary*
+   *
+   * - **Field Type**: Date
+   * - **Placeholder**: *None*
+   * - **API ID Path**: info_section.default.primary.published_date
+   * - **Documentation**: https://prismic.io/docs/field#date
+   */
+  published_date: prismic.DateField;
+
+  /**
+   * Posted By field in *InfoSection → Default → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: info_section.default.primary.posted_by
+   * - **Documentation**: https://prismic.io/docs/field#key-text
+   */
+  posted_by: prismic.KeyTextField;
+}
+
+/**
+ * Default variation for InfoSection Slice
+ *
+ * - **API ID**: `default`
+ * - **Description**: Default
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type InfoSectionSliceDefault = prismic.SharedSliceVariation<
+  "default",
+  Simplify<InfoSectionSliceDefaultPrimary>,
+  never
+>;
+
+/**
+ * Slice variation for *InfoSection*
+ */
+type InfoSectionSliceVariation = InfoSectionSliceDefault;
+
+/**
+ * InfoSection Shared Slice
+ *
+ * - **API ID**: `info_section`
+ * - **Description**: InfoSection
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type InfoSectionSlice = prismic.SharedSlice<
+  "info_section",
+  InfoSectionSliceVariation
+>;
+
+/**
+ * Primary content in *Quote → Default → Primary*
+ */
+export interface QuoteSliceDefaultPrimary {
+  /**
+   * Quote field in *Quote → Default → Primary*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: quote.default.primary.quote
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  quote: prismic.RichTextField;
+}
+
+/**
+ * Default variation for Quote Slice
+ *
+ * - **API ID**: `default`
+ * - **Description**: Default
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type QuoteSliceDefault = prismic.SharedSliceVariation<
+  "default",
+  Simplify<QuoteSliceDefaultPrimary>,
+  never
+>;
+
+/**
+ * Slice variation for *Quote*
+ */
+type QuoteSliceVariation = QuoteSliceDefault;
+
+/**
+ * Quote Shared Slice
+ *
+ * - **API ID**: `quote`
+ * - **Description**: Quote
+ * - **Documentation**: https://prismic.io/docs/slice
+ */
+export type QuoteSlice = prismic.SharedSlice<"quote", QuoteSliceVariation>;
+
+/**
+ * Primary content in *TextBlock → Default → Primary*
+ */
+export interface TextBlockSliceDefaultPrimary {
+  /**
+   * Text field in *TextBlock → Default → Primary*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: text_block.default.primary.text
+   * - **Documentation**: https://prismic.io/docs/field#rich-text-title
+   */
+  text: prismic.RichTextField;
+}
+
+/**
  * Default variation for TextBlock Slice
  *
  * - **API ID**: `default`
@@ -145,7 +306,7 @@ export type AllDocumentTypes = BlogpostDocument | ServicesDocument;
  */
 export type TextBlockSliceDefault = prismic.SharedSliceVariation<
   "default",
-  Record<string, never>,
+  Simplify<TextBlockSliceDefaultPrimary>,
   never
 >;
 
@@ -183,7 +344,20 @@ declare module "@prismicio/client" {
       ServicesDocumentData,
       ServicesDocumentDataSlicesSlice,
       AllDocumentTypes,
+      FeaturedImageSlice,
+      FeaturedImageSliceDefaultPrimary,
+      FeaturedImageSliceVariation,
+      FeaturedImageSliceDefault,
+      InfoSectionSlice,
+      InfoSectionSliceDefaultPrimary,
+      InfoSectionSliceVariation,
+      InfoSectionSliceDefault,
+      QuoteSlice,
+      QuoteSliceDefaultPrimary,
+      QuoteSliceVariation,
+      QuoteSliceDefault,
       TextBlockSlice,
+      TextBlockSliceDefaultPrimary,
       TextBlockSliceVariation,
       TextBlockSliceDefault,
     };

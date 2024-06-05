@@ -18,6 +18,7 @@ import ScrollToTop from "@/components/Layouts/ScrollToTop";
 
 // Prismic
 import { PrismicPreview } from "@prismicio/next";
+import { repositoryName } from "../prismicio";
 
 // For all body text font
 const open_sans = Open_Sans({

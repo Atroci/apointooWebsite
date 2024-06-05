@@ -8,11 +8,10 @@ import Image from "next/image";
 const testimonialsData = [
   {
     image: "/images/clients/client1.jpg",
-    name: "Alen Meair",
-    designation: "Web Developer",
+    name: "Dr. Maria Santos",
+    designation: "Dentist",
     feedbackText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.",
-
+      "Appointo has completely transformed the way we manage our appointments. The seamless integration with Open Dental has made our processes so much more efficient.",
     rating: [
       {
         iconName: "bx bxs-star",
@@ -33,11 +32,10 @@ const testimonialsData = [
   },
   {
     image: "/images/clients/client2.jpg",
-    name: "Axon Detos",
-    designation: "CEO of ET",
+    name: "Dr. James Wilson",
+    designation: "Orthodontist",
     feedbackText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.",
-
+      "The ease of use and the support provided by Appointo is outstanding. Our staff adapted to it quickly and our appointment booking has never been smoother.",
     rating: [
       {
         iconName: "bx bxs-star",
@@ -58,11 +56,10 @@ const testimonialsData = [
   },
   {
     image: "/images/clients/client3.jpg",
-    name: "John Dona",
-    designation: "UI/UX Designer",
+    name: "Dr. Linda Green",
+    designation: "Pediatrician",
     feedbackText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.",
-
+      "Appointo has made scheduling so easy for both our patients and staff. The customizable booking interface is a game-changer for us.",
     rating: [
       {
         iconName: "bx bxs-star",
@@ -83,11 +80,10 @@ const testimonialsData = [
   },
   {
     image: "/images/clients/client4.jpg",
-    name: "Jon Smith",
-    designation: "ReactJS Developer",
+    name: "Dr. Michael Lee",
+    designation: "Family Physician",
     feedbackText:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.",
-
+      "With Appointo, our appointment management is more efficient and the advanced analytics provide us with valuable insights to improve our practice.",
     rating: [
       {
         iconName: "bx bxs-star",

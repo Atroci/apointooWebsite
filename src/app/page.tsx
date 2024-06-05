@@ -21,15 +21,16 @@ export default function Page() {
       <MainBanner />
 
       <Features />
-
-      {/*
-      
       <About />
 
       <Services />
 
       <Newsletter />
-        <News />
+      <News />
+
+      {/*
+      
+   
       --------------------------
       <Pricing />
       <Testimonials />

@@ -1,0 +1,33 @@
+{
+  "id": "info_section",
+  "type": "SharedSlice",
+  "name": "InfoSection",
+  "description": "InfoSection",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "published_date": {
+          "type": "Date",
+          "config": {
+            "label": "Published Date",
+            "placeholder": ""
+          }
+        },
+        "posted_by": {
+          "type": "Text",
+          "config": {
+            "label": "Posted By",
+            "placeholder": ""
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

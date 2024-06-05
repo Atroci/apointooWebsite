@@ -4,11 +4,10 @@ import React from "react";
 import NewsSidebar from "./NewsSidebar";
 import Link from "next/link";
 import CommentsArea from "./CommentsArea";
-import Image from "next/image";
+import { SliceZone } from "@prismicio/react";
+import { components } from "../../slices";
 
-import blogDetailImg from "../../../public/images/blog-details/blog-details.jpg";
-
-const NewsDetailsContent: React.FC = () => {
+const NewsDetailsContent: React.FC = ({ slices }) => {
   return (
     <>
       <div className="news-details-area ptb-100">
@@ -17,12 +16,7 @@ const NewsDetailsContent: React.FC = () => {
             <div className="col-lg-8 col-md-12">
               <div className="blog-details-desc">
                 <div className="article-image">
-                  <Image
-                    src={blogDetailImg}
-                    alt="Image"
-                    width={900}
-                    height={500}
-                  />
+                  <SliceZone slices={slices} components={components} />
                 </div>
 
                 <div className="article-content">
