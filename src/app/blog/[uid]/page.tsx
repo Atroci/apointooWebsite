@@ -15,9 +15,13 @@ type Params = { uid: string };
 
 export default async function Page({ params }: { params: Params }) {
   const client = createClient();
-  const page = await client
-    .getByUID("blogpost", params.uid)
-    .catch(() => notFound());
+  let page;
+
+  try {
+    page = await client.getByUID("blogpost", params.uid);
+  } catch (error) {
+    return notFound();
+  }
 
   if (!page) {
     return notFound();
@@ -26,16 +30,14 @@ export default async function Page({ params }: { params: Params }) {
   return (
     <>
       <Navbar />
-
       <PageBanner
-        pageTitle={page.data.title || "Blog Details"}
+        pageTitle={page.data.meta_title || "Blog Details"}
         homePageUrl="/"
         homePageText="Home"
-        activePageText={page.data.title || "Blog Details"}
+        activePageText={page.data.meta_title || "Blog Details"}
       />
       <NewsDetailsContent />
       <SliceZone slices={page.data.slices} components={components} />
-
       <Footer />
     </>
   );
@@ -47,9 +49,16 @@ export async function generateMetadata({
   params: Params;
 }): Promise<Metadata> {
   const client = createClient();
-  const page = await client
-    .getByUID("blogpost", params.uid)
-    .catch(() => notFound());
+  let page;
+
+  try {
+    page = await client.getByUID("blogpost", params.uid);
+  } catch (error) {
+    return {
+      title: "Not Found",
+      description: "This page could not be found.",
+    };
+  }
 
   if (!page) {
     return {
