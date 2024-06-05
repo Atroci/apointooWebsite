@@ -96,8 +96,8 @@ export const menus = [
   //],
   //},
   {
-    label: "News",
-    link: "#",
+    label: "Blog",
+    link: "/blog",
     submenu: [
       //  {
       //  label: "News Grid",
