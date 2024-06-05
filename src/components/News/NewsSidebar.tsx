@@ -1,9 +1,33 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 
 const NewsSidebar: React.FC = () => {
+  const [query, setQuery] = useState("");
+  const [results, setResults] = useState([]);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+
+  const handleSearch = async (event: React.FormEvent) => {
+    event.preventDefault();
+    setLoading(true);
+    setError(null);
+
+    try {
+      const res = await fetch(`/api/search?query=${query}`);
+      if (!res.ok) {
+        throw new Error("Failed to fetch search results");
+      }
+      const data = await res.json();
+      setResults(data);
+    } catch (error: any) {
+      setError(error.message);
+    } finally {
+      setLoading(false);
+    }
+  };
+
   return (
     <>
       <div className="widget-area" id="secondary">
@@ -11,12 +35,14 @@ const NewsSidebar: React.FC = () => {
           <h3 className="widget-title">Search Now</h3>
 
           <div className="post-wrap">
-            <form className="search-form">
+            <form className="search-form" onSubmit={handleSearch}>
               <label>
                 <input
                   type="search"
                   className="search-field"
                   placeholder="Search..."
+                  value={query}
+                  onChange={(e) => setQuery(e.target.value)}
                 />
               </label>
 
@@ -24,6 +50,16 @@ const NewsSidebar: React.FC = () => {
                 <i className="bx bx-search"></i>
               </button>
             </form>
+            {loading && <p>Loading...</p>}
+            {error && <p>{error}</p>}
+            <div className="search-results">
+              {results.map((result: any) => (
+                <div key={result.id}>
+                  <h3>{result.data.title}</h3>
+                  <p>{result.data.content}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
 

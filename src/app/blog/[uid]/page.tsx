@@ -33,10 +33,8 @@ export default async function Page({ params }: { params: Params }) {
         homePageText="Home"
         activePageText={page.data.title || "Blog Details"}
       />
-
-      <NewsDetailsContent>
-        <SliceZone slices={page.data.slices} components={components} />
-      </NewsDetailsContent>
+      <NewsDetailsContent />
+      <SliceZone slices={page.data.slices} components={components} />
 
       <Footer />
     </>

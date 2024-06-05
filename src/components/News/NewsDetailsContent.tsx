@@ -7,7 +7,7 @@ import CommentsArea from "./CommentsArea";
 import { SliceZone } from "@prismicio/react";
 import { components } from "../../slices";
 
-const NewsDetailsContent: React.FC = ({ slices }) => {
+const NewsDetailsContent: React.FC = ({}) => {
   return (
     <>
       <div className="news-details-area ptb-100">
@@ -15,9 +15,7 @@ const NewsDetailsContent: React.FC = ({ slices }) => {
           <div className="row">
             <div className="col-lg-8 col-md-12">
               <div className="blog-details-desc">
-                <div className="article-image">
-                  <SliceZone slices={slices} components={components} />
-                </div>
+                <div className="article-image"></div>
 
                 <div className="article-content">
                   <div className="entry-meta">
@@ -26,7 +24,7 @@ const NewsDetailsContent: React.FC = ({ slices }) => {
                         <span>Posted On:</span> February 20 , 2020
                       </li>
                       <li>
-                        <span>Posted By:</span>
+                        <span>Posted By: </span>
                         <Link href="#">John Anderson</Link>
                       </li>
                     </ul>
