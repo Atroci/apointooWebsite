@@ -1,5 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
-import { createClient } from '../../prismicio';
+import { createClient, predicate } from '@prismicio/client';
+import { repositoryName } from '@/prismicio'; // Import the repositoryName from prismicio.ts
 
 const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   const { query } = req.query;
@@ -9,14 +10,21 @@ const handler = async (req: NextApiRequest, res: NextApiResponse) => {
   }
 
   try {
-    const client = createClient();
-    const response = await client.getByType('blogpost', {
-      q: `[fulltext(document, "${query}")]`,
+    // Create the Prismic client with the repository name
+    const client = createClient(repositoryName);
+
+    const response = await client.get({
+      predicates: [predicate.fulltext('document', query)],
+      pageSize: 20, // Adjust as necessary
     });
 
     return res.status(200).json(response.results);
   } catch (error) {
-    return res.status(500).json({ error: error.message });
+    if (error instanceof Error) {
+      return res.status(500).json({ error: error.message });
+    } else {
+      return res.status(500).json({ error: 'An unknown error occurred' });
+    }
   }
 };
 
