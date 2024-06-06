@@ -30,14 +30,15 @@ const About: React.FC = () => {
                 data-aos-duration="800"
                 data-aos-delay="900"
               >
-                <span>Appointment Booking Software</span>
-                <h2>
-                  Effortlessly Manage Your Appointments with Advanced Features
-                </h2>
+                <span>What is Apointo?</span>
+                <h2>Your All-in-One Appointment Scheduling Solution</h2>
                 <p>
-                  Streamline your scheduling process with our intuitive and
-                  automated booking software, designed to meet the unique needs
-                  of your practice.
+                  Appointo is a comprehensive software solution designed for
+                  healthcare practices of all sizes. Our platform simplifies the
+                  appointment booking process for patients, provides valuable
+                  insights for marketing teams, and integrates seamlessly with
+                  your existing systems to manage analytics and booking
+                  information efficiently.
                 </p>
 
                 <div className="row">
@@ -45,15 +46,15 @@ const About: React.FC = () => {
                     <ul>
                       <li>
                         <i className="flaticon-checked"></i>
-                        Seamless Integration
+                        Customizable Booking Pages
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        Availability Management
+                        Advanced Analytics Integration
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        Fast setup
+                        EHR Integration
                       </li>
                     </ul>
                   </div>
@@ -62,15 +63,15 @@ const About: React.FC = () => {
                     <ul>
                       <li>
                         <i className="flaticon-checked"></i>
-                        No Learning Curve
+                        Data Security
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        Customizable Scheduling
+                        Scalable Solution
                       </li>
                       <li>
                         <i className="flaticon-checked"></i>
-                        Secure and Compliant
+                        Quick Implementation
                       </li>
                     </ul>
                   </div>

@@ -13,14 +13,14 @@ const Newsletter: React.FC = () => {
       <div className="newsletter-area ptb-100">
         <div className="container">
           <div className="row align-items-center">
-            <div className="col-lg-5">
+            <div className="col-lg-8">
               <div
                 className="newsletter-wrap"
                 data-aos="fade-in"
                 data-aos-duration="800"
                 data-aos-delay="700"
               >
-                <h2>Schedule a Demo</h2>
+                <h2>Ready to Transform Your Practice?</h2>
 
                 <form className="newsletter-form">
                   <input
@@ -31,13 +31,13 @@ const Newsletter: React.FC = () => {
                     required
                   />
                   <button className="default-btn" type="submit">
-                    Schedule
+                    Schedule Demo
                   </button>
                 </form>
               </div>
             </div>
 
-            <div className="col-lg-2">
+            <div className="col-lg-4">
               <div
                 className="newsletter-img"
                 data-aos="fade-in"
@@ -50,18 +50,6 @@ const Newsletter: React.FC = () => {
                   width={230}
                   height={230}
                 />
-              </div>
-            </div>
-
-            <div className="col-lg-5">
-              <div
-                className="call-us"
-                data-aos="fade-in"
-                data-aos-duration="800"
-                data-aos-delay="900"
-              >
-                <h2>Sign Up To The Free Newsletter</h2>
-                <span></span>
               </div>
             </div>
           </div>

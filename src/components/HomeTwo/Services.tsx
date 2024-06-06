@@ -14,49 +14,49 @@ import shapeImg6 from "../../../public/images/shape/services-shape/6.png";
 const servicesData = [
   {
     iconName: "flaticon-chip",
-    title: "Seamless EHR Integration",
+    title: "Customizable Booking Pages:",
     shortText:
-      "Effortlessly integrate with your existing EHR system to streamline your practice's scheduling and management.",
+      "Offer your patients an easy and personalized way to book appointments that match your website’s look and feel. Existing patients can book appointments faster and with fewer steps, enhancing their overall experience.",
     viewDetails: "/services/service-details/",
     aosDelay: "400",
   },
   {
     iconName: "flaticon-vr",
-    title: "Customizable Booking Interface",
+    title: "Advanced Analytics Integration",
     shortText:
-      "Use the interface of your choice for a personalized and comfortable user experience.",
+      "Track and understand your patients' booking journey by sending key booking event information to tools like Google Analytics. Gain valuable insights to improve your marketing efforts and enhance patient experience.",
     viewDetails: "/services/service-details/",
     aosDelay: "500",
   },
   {
     iconName: "flaticon-blockchain",
-    title: "Advanced Analytics",
+    title: "EHR Integrations",
     shortText:
-      "Gain valuable insights with advanced analytics to improve efficiency and patient care.",
+      "Manage all your bookings within your existing electronic health record systems like NexHealth, Open Dental, and DrChrono. Our seamless integration reduces the need for additional steps or tools, making your workflow more efficient.",
     viewDetails: "/services/service-details/",
     aosDelay: "600",
   },
   {
     iconName: "flaticon-target",
-    title: "Automated Data Management",
+    title: "Data Security",
     shortText:
-      "Automate the management of patient data, ensuring accuracy and reducing manual workload.",
+      "Your patients' data security is our top priority. Our system is built to not store any patient information, ensuring compliance and peace of mind. If needed, patient information storage can be requested as a management service with dedicated HIPAA-compliant servers.",
     viewDetails: "/services/service-details/",
     aosDelay: "700",
   },
   {
     iconName: "flaticon-choice",
-    title: "Dedicated Support and Continuous Enhancements",
+    title: "Scalable Solution",
     shortText:
-      "Benefit from our 24/7 support and regular performance enhancements to keep your system running smoothly.",
+      "As your practice expands, Appointoo seamlessly handles increased appointment volumes and additional locations without compromising performance or efficiency.",
     viewDetails: "/services/service-details/",
     aosDelay: "800",
   },
   {
     iconName: "flaticon-deep-learning",
-    title: "Enhanced Security and Compliance",
+    title: "Quick Implementation",
     shortText:
-      "Protect patient data with secure, encrypted communications, ensuring compliance with HIPAA and other regulations.",
+      "Our platform is easy to set up, with minimal disruption to your practice’s daily operations. Our dedicated support team is here to assist you every step of the way, ensuring a smooth transition and fast deployment.",
     viewDetails: "/services/service-details/",
     aosDelay: "900",
   },
@@ -69,12 +69,8 @@ const Services: React.FC = () => {
         <div className="container">
           <div className="section-title">
             <span></span>
-            <h2>Why Apointoo?</h2>
-            <p>
-              Apointoo is the premier solution for automating your practice
-              scheduling, designed to seamlessly integrate with your EHR and
-              cater to the unique needs of your healthcare practice.
-            </p>
+            <h2>Why Choose Apointo?</h2>
+            <p></p>
           </div>
 
           <div className="row justify-content-center">
