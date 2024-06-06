@@ -31,7 +31,7 @@ const Footer = () => {
                   and streamline scheduling for healthcare practices.
                 </p>
 
-                <ul className="social-icon">
+                {/* <ul className="social-icon">
                   <li>
                     <a href="https://www.facebook.com/" target="_blank">
                       <i className="bx bxl-facebook"></i>
@@ -52,7 +52,7 @@ const Footer = () => {
                       <i className="bx bxl-pinterest-alt"></i>
                     </a>
                   </li>
-                </ul>
+                </ul>*/}
               </div>
             </div>
 
@@ -63,24 +63,18 @@ const Footer = () => {
                 data-aos-duration="800"
                 data-aos-delay="300"
               >
-                <h3>Services</h3>
+                <h3>Solutions</h3>
                 <ul>
                   <li>
-                    <Link href="/services/service-details/">
+                    <Link href="/solutions/appointment-scheduling-software/">
                       <i className="right-icon bx bx-chevrons-right"></i>
-                      Appointment Booking Software
+                      Appointment Scheduling Software
                     </Link>
                   </li>
                   <li>
-                    <Link href="/services/service-details/">
+                    <Link href="/solutions/custom-software-development/">
                       <i className="right-icon bx bx-chevrons-right"></i>
-                      Custom Integration Services
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/services/service-details/">
-                      <i className="right-icon bx bx-chevrons-right"></i>
-                      Custom Booking Solutions
+                      Custom Software Development
                     </Link>
                   </li>
                 </ul>
@@ -104,21 +98,9 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/services">
+                    <Link href="/solutions">
                       <i className="right-icon bx bx-chevrons-right"></i>
-                      Services
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/pricing">
-                      <i className="right-icon bx bx-chevrons-right"></i>
-                      Pricing
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/team">
-                      <i className="right-icon bx bx-chevrons-right"></i>
-                      Team
+                      Solutions
                     </Link>
                   </li>
                   <li>
@@ -128,9 +110,15 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/testimonials">
+                    <Link href="/blog">
                       <i className="right-icon bx bx-chevrons-right"></i>
-                      Testimonials
+                      Blog
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="/faq">
+                      <i className="right-icon bx bx-chevrons-right"></i>
+                      FAQ
                     </Link>
                   </li>
                 </ul>
@@ -156,7 +144,7 @@ const Footer = () => {
                   <li className="address">
                     <i className="flaticon-envelope"></i>
                     <span>Email</span>
-                    apointoo@vizuh.com
+                    <a href="mailto:apointoo@vizuh.com">apointoo@vizuh.com</a>
                   </li>
 
                   {/*  <li className="address">
@@ -190,10 +178,12 @@ const Footer = () => {
               <div className="privacy">
                 <ul>
                   <li>
-                    <Link href="/terms-conditions">Terms & Conditions</Link>
+                    <Link href="/about/terms-conditions">
+                      Terms & Conditions
+                    </Link>
                   </li>
                   <li>
-                    <Link href="/privacy-policy">Privacy Policy</Link>
+                    <Link href="/about/privacy-policy">Privacy Policy</Link>
                   </li>
                 </ul>
               </div>

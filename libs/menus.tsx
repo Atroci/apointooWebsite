@@ -32,11 +32,11 @@ export const menus = [
       //     link: "/services/",
       //   },
       {
-        label: "Appointment Scheduling Software",
+        label: "Appointment Scheduling",
         link: "/solutions/appointment-software/",
       },
       {
-        label: "Custom Software Development",
+        label: "Custom Software",
         link: "/solutions/custom-software-development/",
       },
 
@@ -99,27 +99,23 @@ export const menus = [
   {
     label: "Blog",
     link: "/blog",
-    submenu: [
-      //  {
-      //  label: "News Grid",
-      //    link: "/news/",
-      // },
-      {
-        label: "News Right Sidebar",
-        link: "/news/news-right-sidebar/",
-      },
-      {
-        label: "News Details",
-        link: "/news/news-details/",
-      },
-    ],
+    //  submenu: [
+    //  {
+    //  label: "News Grid",
+    //    link: "/news/",
+    // },
+    //{
+    // label: "News Right Sidebar",
+    // link: "/news/news-right-sidebar/",
+    //},
+    // {
+    //  label: "News Details",
+    // link: "/news/news-details/",
+    // },
+    //],
   },
   {
     label: "Contact",
     link: "/contact/",
-  },
-  {
-    label: "FAQ",
-    link: "/faq/",
   },
 ];

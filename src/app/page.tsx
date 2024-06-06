@@ -28,10 +28,11 @@ export default function Page() {
       <Services />
 
       <Newsletter />
-      <News />
       <Faq />
 
       {/*
+            <News />
+
             <WhatWeOffer />
 
             <MakeYourBusiness />
