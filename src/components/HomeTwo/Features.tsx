@@ -8,16 +8,16 @@ const featuresData = [
     iconName: "bx bx-calendar",
     title: "Appointment Scheduling Software",
     shortText:
-      "Our Appointment Scheduling Software is ideal for practices seeking a straightforward, ready-to-use platform. It offers customizable booking pages, advanced analytics, quick implementation, scalability, and robust data security.",
-    viewDetails: "/services/service-details/",
+      "Apointoo is the ideal appointment scheduling software for practices seeking a straightforward, ready-to-use platform.",
+    viewDetails: "/solutions/appointment-scheduling-software/",
     aosDelay: "300",
   },
   {
     iconName: "bx bx-cog",
-    title: "Personalized Service Solutions",
+    title: "Custom Software Development",
     shortText:
-      "Our Personalized Service Solutions are perfect for practices that require tailored integration and development. We provide custom integration services, comprehensive development solutions, flexible configurations, ongoing support, and enhanced data security.",
-    viewDetails: "/services/service-details/",
+      "Our Personalized Services are perfect for practices that require tailored integration and development.",
+    viewDetails: "/solutions/custom-software-development/",
     aosDelay: "400",
   },
 ];

@@ -24,17 +24,22 @@ export const menus = [
     //],
   },
   {
-    label: "Services",
-    link: "#",
+    label: "Solutions",
+    link: "/solutions/",
     submenu: [
       //   {
       //    label: "Services Style One",
       //     link: "/services/",
       //   },
       {
-        label: "Services Style Two",
-        link: "/services/style-2/",
+        label: "Appointment Scheduling Software",
+        link: "/solutions/appointment-software/",
       },
+      {
+        label: "Custom Software Development",
+        link: "/solutions/custom-software-development/",
+      },
+
       //  {
       //  label: "Services Style Three",
       //    link: "/services/style-3/",
@@ -43,10 +48,6 @@ export const menus = [
       //     label: "Services Style Four",
       //    link: "/services/style-4/",
       //  },
-      {
-        label: "Service Details",
-        link: "/services/service-details/",
-      },
     ],
   },
   //   {
