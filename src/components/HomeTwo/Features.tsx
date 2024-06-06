@@ -18,7 +18,7 @@ const featuresData = [
     shortText:
       "Seamlessly integrate your existing systems with Appointo for streamlined scheduling and data synchronization.",
     viewDetails: "/services/service-details/",
-    aosDelay: "600",
+    aosDelay: "400",
   },
   {
     iconName: "flaticon-success",
@@ -26,7 +26,7 @@ const featuresData = [
     shortText:
       "Tailor-made booking systems designed to meet your unique business needs and enhance patient experience.",
     viewDetails: "/services/service-details/",
-    aosDelay: "900",
+    aosDelay: "500",
   },
 ];
 
