@@ -46,9 +46,9 @@ const ContactForm: React.FC = () => {
             <span>Contact Us</span>
             <h2>Drop us a message for any query</h2>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque
-              quibusdam deleniti porro praesentium. Aliquam minus quisquam velit
-              in at nam.
+              If you have any questions or need assistance, feel free to reach
+              out to us. We're here to help you streamline your healthcare
+              practice.
             </p>
           </div>
 

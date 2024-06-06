@@ -11,10 +11,10 @@ export default function Page() {
       <Navbar />
 
       <PageBanner
-        pageTitle="Contact Style One"
+        pageTitle="Contact"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Contact Style One"
+        activePageText="Contact"
       />
 
       <ContactInfo />

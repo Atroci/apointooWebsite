@@ -1,8 +1,8 @@
 import React from "react";
 import Navbar from "../../../components/Layouts/Navbar";
 import PageBanner from "../../../components/Common/PageBanner";
-import ServicesStyleThree from "../../../components/Services/ServicesStyleThree";
 import Footer from "../../../components/Layouts/Footer";
+import PrivacyPolicyContent from "../../../components/PrivacyPolicy/PrivacyPolicyContent";
 
 export default function Page() {
   return (
@@ -10,13 +10,13 @@ export default function Page() {
       <Navbar />
 
       <PageBanner
-        pageTitle="Services Style Three"
+        pageTitle="Privacy Policy"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Services Style Three"
+        activePageText="Privacy Policy"
       />
 
-      <ServicesStyleThree />
+      <PrivacyPolicyContent />
 
       <Footer />
     </>

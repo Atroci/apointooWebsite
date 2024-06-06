@@ -12,13 +12,16 @@ const ServicesStyleOne: React.FC = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-features">
                 <i className="flaticon-cloud-computing-1"></i>
-                <h3>Data Science</h3>
+                <h3>Appointment Scheduling Software</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Mollitia, maxime ipsum praesentium culpa expedita.
+                  Apointoo is the ideal appointment scheduling software for
+                  practices seeking a straightforward, ready-to-use platform.
                 </p>
 
-                <Link href="/services/service-details/" className="read-more-icon">
+                <Link
+                  href="/solutions/appointment-scheduling-software/"
+                  className="read-more-icon"
+                >
                   <span className="flaticon-right-arrow"></span>
                 </Link>
               </div>
@@ -27,134 +30,31 @@ const ServicesStyleOne: React.FC = () => {
             <div className="col-lg-4 col-sm-6">
               <div className="single-features">
                 <i className="flaticon-engineer"></i>
-                <h3>Data Engineer</h3>
+                <h3>Custom Software Development</h3>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Mollitia, maxime ipsum praesentium culpa expedita.
+                  Our Personalized Services are perfect for practices that
+                  require tailored integration and development.
                 </p>
 
-                <Link href="/services/service-details/" className="read-more-icon">
+                <Link
+                  href="/solutions/custom-software-development/"
+                  className="read-more-icon"
+                >
                   <span className="flaticon-right-arrow"></span>
                 </Link>
               </div>
             </div>
-
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-features">
-                <i className="flaticon-success"></i>
-                <h3>Facing AI Challenges</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Mollitia, maxime ipsum praesentium culpa expedita.
-                </p>
-
-                <Link href="/services/service-details/" className="read-more-icon">
-                  <span className="flaticon-right-arrow"></span>
-                </Link>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-features">
-                <i className="flaticon-technical-support"></i>
-                <h3>Safe Security</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Mollitia, maxime ipsum praesentium culpa expedita.
-                </p>
-
-                <Link href="/services/service-details/" className="read-more-icon">
-                  <span className="flaticon-right-arrow"></span>
-                </Link>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-features">
-                <i className="flaticon-shield"></i>
-                <h3>Technical Support</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Mollitia, maxime ipsum praesentium culpa expedita.
-                </p>
-
-                <Link href="/services/service-details/" className="read-more-icon">
-                  <span className="flaticon-right-arrow"></span>
-                </Link>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-features">
-                <i className="flaticon-success"></i>
-                <h3>Live Support</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Mollitia, maxime ipsum praesentium culpa expedita.
-                </p>
-
-                <Link href="/services/service-details/" className="read-more-icon">
-                  <span className="flaticon-right-arrow"></span>
-                </Link>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-features">
-                <i className="flaticon-machine-learning"></i>
-                <h3>Heavy Industry</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Mollitia, maxime ipsum praesentium culpa expedita.
-                </p>
-
-                <Link href="/services/service-details/" className="read-more-icon">
-                  <span className="flaticon-right-arrow"></span>
-                </Link>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-features">
-                <i className="flaticon-artificial-intelligence"></i>
-                <h3>Transportation</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Mollitia, maxime ipsum praesentium culpa expedita.
-                </p>
-
-                <Link href="/services/service-details/" className="read-more-icon">
-                  <span className="flaticon-right-arrow"></span>
-                </Link>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-features">
-                <i className="flaticon-health"></i>
-                <h3>Health Care</h3>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Mollitia, maxime ipsum praesentium culpa expedita.
-                </p>
-
-                <Link href="/services/service-details/" className="read-more-icon">
-                  <span className="flaticon-right-arrow"></span>
-                </Link>
-              </div>
-            </div>
-
             {/* Pagination */}
             <div className="col-lg-12">
               <div className="page-navigation-area">
                 <nav aria-label="Page navigation example text-center">
                   <ul className="pagination">
-                    <li className="page-item">
+                    {/*<li className="page-item">
                       <Link href="#" className="page-link page-links">
                         <i className="bx bx-chevrons-left"></i>
                       </Link>
                     </li>
-
+                    
                     <li className="page-item active">
                       <Link href="#" className="page-link">
                         1
@@ -177,7 +77,7 @@ const ServicesStyleOne: React.FC = () => {
                       <Link href="#" className="page-link">
                         <i className="bx bx-chevrons-right"></i>
                       </Link>
-                    </li>
+                    </li>*/}
                   </ul>
                 </nav>
               </div>
