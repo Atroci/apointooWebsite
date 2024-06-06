@@ -11,39 +11,32 @@ const MakeYourBusiness: React.FC = () => {
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="business-content">
-                <h2>Make Your Business More Competitive And Enduring</h2>
+                <h2>What is Appointo?</h2>
               </div>
 
               <div className="single-business">
                 <i className="flaticon-chip"></i>
-                <h3>AI Will Automate Cybersecurity Improve</h3>
+                <h3>Your All-in-One Appointment Scheduling Solution</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore. Quis ipsum
-                  suspendisse ultrices gravida suspendisse.
-                </p>
-              </div>
-
-              <div className="single-business">
-                <i className="flaticon-blockchain"></i>
-                <h3>A Community With A Unique Mission</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore. Quis ipsum
-                  suspendisse ultrices gravida suspendisse.
+                  Appointo is a comprehensive software solution designed for
+                  healthcare practices of all sizes. Our platform simplifies the
+                  appointment booking process for patients, provides valuable
+                  insights for marketing teams, and integrates seamlessly with
+                  your existing systems to manage analytics and booking
+                  information efficiently.
                 </p>
               </div>
 
               <div className="business-btn">
                 <Link href="/about-2" className="default-btn">
-                  Know Details
+                  Learn More
                 </Link>
               </div>
             </div>
 
-            <div className="col-lg-6">
+            {/* <div className="col-lg-6">
               <div className="row">
-                <div 
+                <div
                   className="col-lg-6 col-sm-6 counter-nth"
                   data-aos="fade-up"
                   data-aos-duration="800"
@@ -57,7 +50,7 @@ const MakeYourBusiness: React.FC = () => {
                   </div>
                 </div>
 
-                <div 
+                <div
                   className="col-lg-6 col-sm-6 counter-nth"
                   data-aos="fade-up"
                   data-aos-duration="800"
@@ -71,7 +64,7 @@ const MakeYourBusiness: React.FC = () => {
                   </div>
                 </div>
 
-                <div 
+                <div
                   className="col-lg-6 col-sm-6 counter-nth"
                   data-aos="fade-up"
                   data-aos-duration="800"
@@ -85,7 +78,7 @@ const MakeYourBusiness: React.FC = () => {
                   </div>
                 </div>
 
-                <div 
+                <div
                   className="col-lg-6 col-sm-6 counter-nth"
                   data-aos="fade-up"
                   data-aos-duration="800"
@@ -99,7 +92,7 @@ const MakeYourBusiness: React.FC = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </div>*/}
           </div>
         </div>
       </div>

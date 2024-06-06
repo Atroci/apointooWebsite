@@ -12,6 +12,7 @@ import WhatWeOffer from "./../components/HomeTwo/WhatWeOffer";
 import News from "./../components/Common/News";
 import Partner from "./../components/Common/Partner";
 import Footer from "./../components/Layouts/Footer";
+import Faq from "./../components/HomeFour/Faq";
 
 export default function Page() {
   return (
@@ -21,27 +22,29 @@ export default function Page() {
       <MainBanner />
 
       <Features />
+
       <About />
 
       <Services />
 
       <Newsletter />
       <News />
+      <Faq />
 
       {/*
-      
-   
+            <WhatWeOffer />
+
+            <MakeYourBusiness />
+
       --------------------------
       <Pricing />
       <Testimonials />
 
-      <MakeYourBusiness />
       
       
       <div className="pb-50">
         <Partner />
       </div>
-            <WhatWeOffer />
 
       */}
 
