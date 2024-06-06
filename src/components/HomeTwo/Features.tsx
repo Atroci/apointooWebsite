@@ -5,28 +5,20 @@ import Link from "next/link";
 
 const featuresData = [
   {
-    iconName: "bx bx-shopping-bag",
-    title: "Appointment Booking Software",
+    iconName: "bx bx-calendar",
+    title: "Appointment Scheduling Software",
     shortText:
-      "Effortlessly manage and book appointments with our user-friendly, automated scheduling software.",
+      "Our Appointment Scheduling Software is ideal for practices seeking a straightforward, ready-to-use platform. It offers customizable booking pages, advanced analytics, quick implementation, scalability, and robust data security.",
     viewDetails: "/services/service-details/",
     aosDelay: "300",
   },
   {
-    iconName: "flaticon-engineer",
-    title: "Custom Integration Services",
+    iconName: "bx bx-cog",
+    title: "Personalized Service Solutions",
     shortText:
-      "Seamlessly integrate your existing systems with Appointo for streamlined scheduling and data synchronization.",
+      "Our Personalized Service Solutions are perfect for practices that require tailored integration and development. We provide custom integration services, comprehensive development solutions, flexible configurations, ongoing support, and enhanced data security.",
     viewDetails: "/services/service-details/",
     aosDelay: "400",
-  },
-  {
-    iconName: "flaticon-success",
-    title: "Custom Booking Solutions",
-    shortText:
-      "Tailor-made booking systems designed to meet your unique business needs and enhance patient experience.",
-    viewDetails: "/services/service-details/",
-    aosDelay: "500",
   },
 ];
 
