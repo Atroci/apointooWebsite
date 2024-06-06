@@ -17,8 +17,8 @@ const Newsletter: React.FC = () => {
               <div
                 className="newsletter-wrap"
                 data-aos="fade-in"
-                data-aos-duration="800"
-                data-aos-delay="700"
+                data-aos-duration="600"
+                data-aos-delay="500"
               >
                 <h2>Ready to Transform Your Practice?</h2>
 

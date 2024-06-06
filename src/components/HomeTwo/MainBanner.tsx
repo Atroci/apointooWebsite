@@ -36,7 +36,7 @@ const MainBanner: React.FC = () => {
                   data-aos-duration="800"
                   data-aos-delay="100"
                 >
-                  Increase Appointments with Seamless Open Dental Integration
+                  Simplify Your Practice’s Scheduling Challenges
                 </h1>
 
                 <p
@@ -44,10 +44,8 @@ const MainBanner: React.FC = () => {
                   data-aos-duration="800"
                   data-aos-delay="200"
                 >
-                  Appointo offers a beautiful, simple, and elegant appointment
-                  booking software that integrates effortlessly with Open
-                  Dental. Designed to increase your appointments, it's easy to
-                  use, robust, and handles a variety of scheduling needs.
+                  Elevate Patient Experience and Boost Operational Efficiency
+                  While Getting Full Visibility of Your Booking Flow
                 </p>
 
                 <div
@@ -57,7 +55,7 @@ const MainBanner: React.FC = () => {
                   data-aos-delay="300"
                 >
                   <Link href="/contact" className="default-btn">
-                    Book a Call
+                    Schedule Demo
                   </Link>
                 </div>
               </div>
