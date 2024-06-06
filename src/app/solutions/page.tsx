@@ -1,8 +1,9 @@
 import React from "react";
-import Navbar from "../../components/Layouts/Navbar";
-import PageBanner from "../../components/Common/PageBanner";
-import ServicesStyleOne from "../../components/Services/ServicesStyleOne";
-import Footer from "../../components/Layouts/Footer";
+import Navbar from "./../../components/Layouts/Navbar";
+import PageBanner from "./../../components/Common/PageBanner";
+import ServicesStyleFour from "./../../components/Services/ServicesStyleFour";
+import MakeYourBusiness from "./../../components/Common/MakeYourBusiness";
+import Footer from "./../../components/Layouts/Footer";
 
 export default function Page() {
   return (
@@ -10,13 +11,16 @@ export default function Page() {
       <Navbar />
 
       <PageBanner
-        pageTitle="Services Style One"
+        pageTitle="Services Style Four"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Services Style One"
+        activePageText="Services Style Four"
       />
-
       <ServicesStyleOne />
+
+      <ServicesStyleFour />
+
+      <MakeYourBusiness />
 
       <Footer />
     </>
