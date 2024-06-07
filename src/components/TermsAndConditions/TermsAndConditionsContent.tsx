@@ -1,99 +1,113 @@
 "use client";
 
-import React from "react"; 
+import React from "react";
 
 const TermsAndConditionsContent: React.FC = () => {
   return (
     <>
       <div className="text-container ptb-100">
         <div className="container">
-          <h3>What is lorem ipsum?</h3>
+          <h1>Website Terms and Conditions of Use</h1>
 
+          <h3>1. Terms</h3>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+            By accessing this Website, accessible from
+            https://www.apointoo.com/, you are agreeing to be bound by these
+            Website Terms and Conditions of Use and agree that you are
+            responsible for the agreement with any applicable local laws. If you
+            disagree with any of these terms, you are prohibited from accessing
+            this site. The materials contained in this Website are protected by
+            copyright and trade mark law.
           </p>
 
-          <h3>Where does it come from?</h3>
+          <h3>2. Use License</h3>
           <p>
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old. Richard McClintock, a Latin professor
-            at Hampden-Sydney College in Virginia, looked up one of the more
-            obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-            going through the cites of the word in classical literature,
-            discovered the undoubtable source. Lorem Ipsum comes from sections
-            1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes
-            of Good and Evil) by Cicero, written in 45 BC. This book is a
-            treatise on the theory of ethics, very popular during the
-            Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
-            amet..".
+            Permission is granted to temporarily download one copy of the
+            materials on Vizuh OÜ's Website for personal, non-commercial
+            transitory viewing only. This is the grant of a license, not a
+            transfer of title, and under this license you may not:
+          </p>
+          <ul>
+            <li>modify or copy the materials;</li>
+            <li>
+              use the materials for any commercial purpose or for any public
+              display;
+            </li>
+            <li>
+              attempt to reverse engineer any software contained on Vizuh OÜ's
+              Website;
+            </li>
+            <li>
+              remove any copyright or other proprietary notations from the
+              materials; or
+            </li>
+            <li>
+              transferring the materials to another person or "mirror" the
+              materials on any other server.
+            </li>
+          </ul>
+          <p>
+            This will let Vizuh OÜ to terminate upon violations of any of these
+            restrictions. Upon termination, your viewing right will also be
+            terminated and you should destroy any downloaded materials in your
+            possession whether it is printed or electronic format. These Terms
+            of Service has been created with the help of the Terms Of Service
+            Generator.
           </p>
 
+          <h3>3. Disclaimer</h3>
           <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-            eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-            qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-            sed quia non numquam eius modi tempora incidunt ut labore et dolore
-            magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
-            nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
-            aliquid ex ea commodi consequatur? Quis autem vel eum iure
-            reprehenderit qui in ea voluptate velit esse quam nihil molestiae
-            consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
+            All the materials on Vizuh OÜ's Website are provided "as is". Vizuh
+            OÜ makes no warranties, may it be expressed or implied, therefore
+            negates all other warranties. Furthermore, Vizuh OÜ does not make
+            any representations concerning the accuracy or reliability of the
+            use of the materials on its Website or otherwise relating to such
+            materials or any sites linked to this Website.
           </p>
 
-          <h3>Where can I get some?</h3>
+          <h3>4. Limitations</h3>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim.
+            Vizuh OÜ or its suppliers will not be hold accountable for any
+            damages that will arise with the use or inability to use the
+            materials on Vizuh OÜ's Website, even if Vizuh OÜ or an authorize
+            representative of this Website has been notified, orally or written,
+            of the possibility of such damage. Some jurisdiction does not allow
+            limitations on implied warranties or limitations of liability for
+            incidental damages, these limitations may not apply to you.
           </p>
 
+          <h3>5. Revisions and Errata</h3>
           <p>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don't look even slightly
-            believable. If you are going to use a passage of Lorem Ipsum, you
-            need to be sure there isn't anything embarrassing hidden in the
-            middle of text. All the Lorem Ipsum generators on the Internet tend
-            to repeat predefined chunks as necessary, making this the first true
-            generator on the Internet. It uses a dictionary of over 200 Latin
-            words, combined with a handful of model sentence structures, to
-            generate Lorem Ipsum which looks reasonable. The generated Lorem
-            Ipsum is therefore always free from repetition, injected.
+            The materials appearing on Vizuh OÜ's Website may include technical,
+            typographical, or photographic errors. Vizuh OÜ will not promise
+            that any of the materials in this Website are accurate, complete, or
+            current. Vizuh OÜ may change the materials contained on its Website
+            at any time without notice. Vizuh OÜ does not make any commitment to
+            update the materials.
           </p>
 
+          <h3>6. Links</h3>
           <p>
-            But I must explain to you how all this mistaken idea of denouncing
-            pleasure and praising pain was born and I will give you a complete
-            account of the system, and expound the actual teachings of the great
-            explorer of the truth, the master-builder of human happiness. No one
-            rejects, dislikes, or avoids pleasure itself, because it is
-            pleasure, but because those who do not know how to pursue pleasure
-            rationally encounter consequences that are extremely painful. Nor
-            again is there anyone who loves or pursues or desires to obtain pain
-            of itself, because it is pain, but because occasionally
-            circumstances occur in which toil and pain can procure him some
-            great pleasure. To take a trivial example, which of us ever
-            undertakes laborious physical exercise, except to obtain some
-            advantage from it? But who has any right to find fault with a man
-            who chooses to enjoy a pleasure that has no annoying consequences,
-            or one who avoids a pain that
+            Vizuh OÜ has not reviewed all of the sites linked to its Website and
+            is not responsible for the contents of any such linked site. The
+            presence of any link does not imply endorsement by Vizuh OÜ of the
+            site. The use of any linked website is at the user's own risk.
+          </p>
+
+          <h3>7. Site Terms of Use Modifications</h3>
+          <p>
+            Vizuh OÜ may revise these Terms of Use for its Website at any time
+            without prior notice. By using this Website, you are agreeing to be
+            bound by the current version of these Terms and Conditions of Use.
+          </p>
+
+          <h3>8. Your Privacy</h3>
+          <p>Please read our Privacy Policy.</p>
+
+          <h3>9. Governing Law</h3>
+          <p>
+            Any claim related to Vizuh OÜ's Website shall be governed by the
+            laws of ee without regards to its conflict of law provisions.
           </p>
         </div>
       </div>

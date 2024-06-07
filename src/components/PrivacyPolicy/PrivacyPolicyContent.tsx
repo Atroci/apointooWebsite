@@ -1,99 +1,136 @@
 "use client";
 
-import React from "react"; 
+import React from "react";
 
 const PrivacyPolicyContent: React.FC = () => {
   return (
     <>
       <div className="text-container ptb-100">
         <div className="container">
-          <h3>What is lorem ipsum?</h3>
+          <h1>Privacy Policy for Apointoo</h1>
 
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
-          </p>
-
-          <h3>Where does it come from?</h3>
-          <p>
-            Contrary to popular belief, Lorem Ipsum is not simply random text.
-            It has roots in a piece of classical Latin literature from 45 BC,
-            making it over 2000 years old. Richard McClintock, a Latin professor
-            at Hampden-Sydney College in Virginia, looked up one of the more
-            obscure Latin words, consectetur, from a Lorem Ipsum passage, and
-            going through the cites of the word in classical literature,
-            discovered the undoubtable source. Lorem Ipsum comes from sections
-            1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes
-            of Good and Evil) by Cicero, written in 45 BC. This book is a
-            treatise on the theory of ethics, very popular during the
-            Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit
-            amet..".
+            At Apointoo, accessible from https://www.apointoo.com/, one of our
+            main priorities is the privacy of our visitors. This Privacy Policy
+            document contains types of information that is collected and
+            recorded by Apointoo and how we use it.
           </p>
 
           <p>
-            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
-            quae ab illo inventore veritatis et quasi architecto beatae vitae
-            dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-            aspernatur aut odit aut fugit, sed quia consequuntur magni dolores
-            eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est,
-            qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,
-            sed quia non numquam eius modi tempora incidunt ut labore et dolore
-            magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis
-            nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut
-            aliquid ex ea commodi consequatur? Quis autem vel eum iure
-            reprehenderit qui in ea voluptate velit esse quam nihil molestiae
-            consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla
+            If you have additional questions or require more information about
+            our Privacy Policy, do not hesitate to contact us.
           </p>
 
-          <h3>Where can I get some?</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim.
-          </p>
+          <h2>Log Files</h2>
 
           <p>
-            There are many variations of passages of Lorem Ipsum available, but
-            the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don't look even slightly
-            believable. If you are going to use a passage of Lorem Ipsum, you
-            need to be sure there isn't anything embarrassing hidden in the
-            middle of text. All the Lorem Ipsum generators on the Internet tend
-            to repeat predefined chunks as necessary, making this the first true
-            generator on the Internet. It uses a dictionary of over 200 Latin
-            words, combined with a handful of model sentence structures, to
-            generate Lorem Ipsum which looks reasonable. The generated Lorem
-            Ipsum is therefore always free from repetition, injected.
+            Apointoo follows a standard procedure of using log files. These
+            files log visitors when they visit websites. All hosting companies
+            do this and a part of hosting services' analytics. The information
+            collected by log files include internet protocol (IP) addresses,
+            browser type, Internet Service Provider (ISP), date and time stamp,
+            referring/exit pages, and possibly the number of clicks. These are
+            not linked to any information that is personally identifiable. The
+            purpose of the information is for analyzing trends, administering
+            the site, tracking users' movement on the website, and gathering
+            demographic information. Our Privacy Policy was created with the
+            help of the{" "}
+            <a href="https://www.privacypolicyonline.com/privacy-policy-generator/">
+              Privacy Policy Generator
+            </a>
+            .
+          </p>
+
+          <h2>Cookies and Web Beacons</h2>
+
+          <p>
+            Like any other website, Apointoo uses "cookies". These cookies are
+            used to store information including visitors' preferences, and the
+            pages on the website that the visitor accessed or visited. The
+            information is used to optimize the users' experience by customizing
+            our web page content based on visitors' browser type and/or other
+            information.
           </p>
 
           <p>
-            But I must explain to you how all this mistaken idea of denouncing
-            pleasure and praising pain was born and I will give you a complete
-            account of the system, and expound the actual teachings of the great
-            explorer of the truth, the master-builder of human happiness. No one
-            rejects, dislikes, or avoids pleasure itself, because it is
-            pleasure, but because those who do not know how to pursue pleasure
-            rationally encounter consequences that are extremely painful. Nor
-            again is there anyone who loves or pursues or desires to obtain pain
-            of itself, because it is pain, but because occasionally
-            circumstances occur in which toil and pain can procure him some
-            great pleasure. To take a trivial example, which of us ever
-            undertakes laborious physical exercise, except to obtain some
-            advantage from it? But who has any right to find fault with a man
-            who chooses to enjoy a pleasure that has no annoying consequences,
-            or one who avoids a pain that
+            For more general information on cookies, please read{" "}
+            <a href="https://www.privacypolicyonline.com/what-are-cookies/">
+              the "Cookies" article from the Privacy Policy Generator
+            </a>
+            .
+          </p>
+
+          <h2>Privacy Policies</h2>
+
+          <p>
+            You may consult this list to find the Privacy Policy for each of the
+            advertising partners of Apointoo.
+          </p>
+
+          <p>
+            Third-party ad servers or ad networks uses technologies like
+            cookies, JavaScript, or Web Beacons that are used in their
+            respective advertisements and links that appear on Apointoo, which
+            are sent directly to users' browser. They automatically receive your
+            IP address when this occurs. These technologies are used to measure
+            the effectiveness of their advertising campaigns and/or to
+            personalize the advertising content that you see on websites that
+            you visit.
+          </p>
+
+          <p>
+            Note that Apointoo has no access to or control over these cookies
+            that are used by third-party advertisers.
+          </p>
+
+          <h2>Third Party Privacy Policies</h2>
+
+          <p>
+            Apointoo's Privacy Policy does not apply to other advertisers or
+            websites. Thus, we are advising you to consult the respective
+            Privacy Policies of these third-party ad servers for more detailed
+            information. It may include their practices and instructions about
+            how to opt-out of certain options.
+          </p>
+
+          <p>
+            You can choose to disable cookies through your individual browser
+            options. To know more detailed information about cookie management
+            with specific web browsers, it can be found at the browsers'
+            respective websites. What Are Cookies?
+          </p>
+
+          <h2>Children's Information</h2>
+
+          <p>
+            Another part of our priority is adding protection for children while
+            using the internet. We encourage parents and guardians to observe,
+            participate in, and/or monitor and guide their online activity.
+          </p>
+
+          <p>
+            Apointoo does not knowingly collect any Personal Identifiable
+            Information from children under the age of 13. If you think that
+            your child provided this kind of information on our website, we
+            strongly encourage you to contact us immediately and we will do our
+            best efforts to promptly remove such information from our records.
+          </p>
+
+          <h2>Online Privacy Policy Only</h2>
+
+          <p>
+            This Privacy Policy applies only to our online activities and is
+            valid for visitors to our website with regards to the information
+            that they shared and/or collect in Apointoo. This policy is not
+            applicable to any information collected offline or via channels
+            other than this website.
+          </p>
+
+          <h2>Consent</h2>
+
+          <p>
+            By using our website, you hereby consent to our Privacy Policy and
+            agree to its Terms and Conditions.
           </p>
         </div>
       </div>
