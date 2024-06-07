@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../../../components/Layouts/Navbar";
 import PageBanner from "../../../components/Common/PageBanner";
-import ServiceDetailsContent from "../../../components/ServiceDetails/ServiceDetailsContent";
+import DevDetailsContent from "../../../components/ServiceDetails/DevDetailsContent";
 import Footer from "../../../components/Layouts/Footer";
 
 export default function Page() {
@@ -16,7 +16,7 @@ export default function Page() {
         activePageText="Custom Software Development"
       />
 
-      <ServiceDetailsContent />
+      <DevDetailsContent />
 
       <Footer />
     </>

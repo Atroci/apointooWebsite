@@ -9,7 +9,7 @@ import aboutImg from "../../../public/images/about-img.png";
 const About: React.FC = () => {
   return (
     <>
-      <div className="about-area pt-100">
+      <div className="about-area ptb-100">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-6">
@@ -85,10 +85,10 @@ const About: React.FC = () => {
                     </ul>
                   </div>
                 </div>
-
+                {/*
                 <Link href="/about" className="default-btn">
                   Learn More
-                </Link>
+                </Link>*/}
               </div>
             </div>
           </div>

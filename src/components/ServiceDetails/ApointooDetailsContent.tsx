@@ -8,7 +8,7 @@ import Image from "next/image";
 import servicesDetailsImg from "../../../public/images/services-details/services-details.jpg";
 import servicesDetailsImg2 from "../../../public/images/services-details/services-details2.png";
 
-const ApointooDetailsContent: React.FC = () => {
+const DevDetailsContent: React.FC = () => {
   return (
     <>
       <div className="service-details-area ptb-100">
@@ -51,9 +51,8 @@ const ApointooDetailsContent: React.FC = () => {
                   </li>
                   <li>
                     <strong>Customizable Booking Pages:</strong> Personalize
-                    booking pages to match your practice's branding. Allow
-                    patients to book, reschedule, or cancel appointments online
-                    at their convenience.
+                    booking pages to match your practice's branding. Allows
+                    patients to book appointments online at their convenience.
                   </li>
                   <li>
                     <strong>Real-Time Availability:</strong> Provides real-time
@@ -67,17 +66,18 @@ const ApointooDetailsContent: React.FC = () => {
                     a comprehensive patient history.
                   </li>
                   <li>
-                    <strong>Advanced Analytics:</strong> Offers detailed reports
-                    on appointment trends, patient demographics, and no-show
-                    rates. Helps practices understand patient behaviors and
-                    optimize scheduling processes accordingly.
+                    <strong>Advanced Analytics Integration:</strong> Integrates
+                    event tracking, screens, and steps taken by visitors before
+                    scheduling into Google Analytics. Helps practices gain
+                    valuable insights into patient booking behavior to improve
+                    service.
                   </li>
                   <li>
                     <strong>Seamless EHR Integration:</strong> Integrates with
                     popular electronic health record (EHR) systems such as
-                    NexHealth, Open Dental, and DrChrono. Ensures that all
-                    patient data is synchronized across platforms, reducing
-                    duplication and errors.
+                    NexHealth, Open Dental, and DrChrono. Simplifies the
+                    management of appointments, reducing the workload for
+                    administrative staff.
                   </li>
                   <li>
                     <strong>HIPAA-Compliant Data Security:</strong> Built with
@@ -135,14 +135,14 @@ const ApointooDetailsContent: React.FC = () => {
                     experience.
                   </li>
                 </ul>
-
-                <p>
-                  Transform your practice’s scheduling challenges into
-                  streamlined, efficient processes with Apointoo. Experience the
-                  benefits of a robust appointment scheduling solution designed
-                  to meet the unique needs of healthcare practices.
-                </p>
-
+                <blockquote className="flaticon-quote">
+                  <p>
+                    Transform your practice’s scheduling challenges into
+                    streamlined, efficient processes with Apointoo. Experience
+                    the benefits of a robust appointment scheduling solution
+                    designed to meet the unique needs of healthcare practices.
+                  </p>
+                </blockquote>
                 <div className="car-service-list-wrap">
                   <div className="row align-items-center">
                     <div className="col-lg-6 col-md-6">
@@ -160,24 +160,23 @@ const ApointooDetailsContent: React.FC = () => {
                       <div className="car-service-list">
                         <ul>
                           <li>
-                            <i className="bx bx-check"></i>
-                            Engine bay cleaned and dressed
+                            <i className="bx bx-check"></i> Improved Efficiency
                           </li>
                           <li>
-                            <i className="bx bx-check"></i>
-                            Door card panels cleaned
+                            <i className="bx bx-check"></i> Enhanced Patient
+                            Experience
                           </li>
                           <li>
-                            <i className="bx bx-check"></i>
-                            Plastic trim enhanced
+                            <i className="bx bx-check"></i> Real-Time
+                            Availability
                           </li>
                           <li>
-                            <i className="bx bx-check"></i>
-                            Paint surface clay barred
+                            <i className="bx bx-check"></i> Advanced Analytics
+                            Integration
                           </li>
                           <li>
-                            <i className="bx bx-check"></i>
-                            Alloy wheel treatment inside and out
+                            <i className="bx bx-check"></i> Less Administrative
+                            Work
                           </li>
                         </ul>
                       </div>
@@ -199,4 +198,4 @@ const ApointooDetailsContent: React.FC = () => {
   );
 };
 
-export default ApointooDetailsContent;
+export default DevDetailsContent;

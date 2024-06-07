@@ -32,8 +32,8 @@ export const menus = [
       //     link: "/services/",
       //   },
       {
-        label: "Appointment Scheduling",
-        link: "/solutions/appointment-software/",
+        label: "Appointment Software",
+        link: "/solutions/appointment-scheduling-software/",
       },
       {
         label: "Custom Software",

@@ -24,17 +24,19 @@ const FaqContent: React.FC = () => {
                   <AccordionItem uuid="a">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        What Are The Business Advisory Company?
+                        How can Appointoo help improve my practice's efficiency?
                       </AccordionItemButton>
                     </AccordionItemHeading>
 
                     <AccordionItemPanel>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                        Risus commodo viverra maecenas accumsan lacus vel
-                        facilisis.
+                        Appointoo enhances efficiency by providing a seamless
+                        appointment scheduling process, integrating with
+                        existing EHR systems like NexHealth, Open Dental, and
+                        DrChrono, and offering advanced analytics to track and
+                        optimize your patient booking journey. This reduces
+                        administrative tasks and improves overall operational
+                        efficiency.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -42,17 +44,18 @@ const FaqContent: React.FC = () => {
                   <AccordionItem uuid="b">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        Research Is What Makes An Effective Business Plan?
+                        Is my patients' data secure with Appointoo?
                       </AccordionItemButton>
                     </AccordionItemHeading>
 
                     <AccordionItemPanel>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                        Risus commodo viverra maecenas accumsan lacus vel
-                        facilisis.
+                        es, your patients' data security is our top priority.
+                        Appointoo is built to not store any patient information,
+                        ensuring compliance and peace of mind. If needed,
+                        patient information storage can be requested as a
+                        management service with dedicated HIPAA-compliant
+                        servers.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -60,16 +63,16 @@ const FaqContent: React.FC = () => {
                   <AccordionItem uuid="c">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        How Achieving Small Business Success?
+                        How quickly can we implement Appointoo in our practice?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                        Risus commodo viverra maecenas accumsan lacus vel
-                        facilisis.
+                        Appointoo is designed for quick implementation with
+                        minimal disruption to your practice’s daily operations.
+                        Our dedicated support team is here to assist you every
+                        step of the way, ensuring a smooth transition and fast
+                        deployment.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -77,16 +80,16 @@ const FaqContent: React.FC = () => {
                   <AccordionItem uuid="d">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        Why Business Planing Is Important?
+                        What kind of support does Appointoo offer after
+                        implementation?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                        Risus commodo viverra maecenas accumsan lacus vel
-                        facilisis.
+                        We offer ongoing support to ensure that your practice
+                        continues to benefit from our solutions. This includes
+                        continuous optimization, assistance with any issues that
+                        arise, and updates to keep your system running smoothly.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -94,16 +97,34 @@ const FaqContent: React.FC = () => {
                   <AccordionItem uuid="e">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        How Do You Startup?
+                        How does Appointoo help in tracking patient bookings and
+                        improving marketing efforts?{" "}
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis ipsum suspendisse ultrices gravida.
-                        Risus commodo viverra maecenas accumsan lacus vel
-                        facilisis.
+                        Appointoo integrates with tools like Google Analytics to
+                        track and understand your patients' booking journey.
+                        This provides valuable insights that can help you
+                        improve your marketing efforts and enhance patient
+                        experience.
+                      </p>
+                    </AccordionItemPanel>
+                  </AccordionItem>
+
+                  <AccordionItem uuid="f">
+                    <AccordionItemHeading>
+                      <AccordionItemButton>
+                        How can I get started with Appointoo?
+                      </AccordionItemButton>
+                    </AccordionItemHeading>
+                    <AccordionItemPanel>
+                      <p>
+                        Getting started with Appointoo is easy. Contact us today
+                        to schedule a demo and explore the features and benefits
+                        tailored to your specific requirements. You can also get
+                        a quote by visiting our website and filling out the
+                        necessary information.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>

@@ -25,75 +25,49 @@ const DevDetailsContent: React.FC = () => {
                   />
                 </div>
 
-                <h3>Appointment Scheduling Software</h3>
+                <h3>Custom Software Development</h3>
                 <p>
-                  Apointoo is the ideal appointment scheduling software for
-                  practices seeking a straightforward, ready-to-use platform
-                  that streamlines the entire appointment booking process.
-                  Designed with both healthcare providers and patients in mind,
-                  Apointoo offers a range of features that enhance operational
-                  efficiency, improve patient experience, and simplify
-                  administrative tasks.
+                  Our custom software development services are designed to meet
+                  the unique needs of your practice. Whether you require
+                  tailored integrations, specialized applications, or enhanced
+                  features, our team of experts is equipped to deliver solutions
+                  that align perfectly with your requirements.
                 </p>
                 <h4>Key Features:</h4>
                 <ul>
                   <li>
-                    <strong>User-Friendly Interface:</strong> Intuitive design
-                    that is easy to navigate for both staff and patients. Quick
-                    setup with minimal training required, allowing your practice
-                    to start using the software immediately.
+                    <strong>Tailored Solutions:</strong> Custom software
+                    designed to fit your specific practice requirements,
+                    ensuring maximum efficiency and productivity.
                   </li>
                   <li>
-                    <strong>Automated Scheduling:</strong> Reduces manual entry
-                    errors with automated appointment bookings. Sends automated
-                    reminders via email or SMS to reduce no-shows and improve
-                    appointment adherence.
+                    <strong>Seamless Integration:</strong> Integrates seamlessly
+                    with your existing systems, reducing the need for multiple
+                    platforms and streamlining your workflow.
                   </li>
                   <li>
-                    <strong>Customizable Booking Pages:</strong> Personalize
-                    booking pages to match your practice's branding. Allow
-                    patients to book, reschedule, or cancel appointments online
-                    at their convenience.
+                    <strong>Enhanced Features:</strong> Development of unique
+                    features that are not available in off-the-shelf software,
+                    providing you with a competitive edge.
                   </li>
                   <li>
-                    <strong>Real-Time Availability:</strong> Provides real-time
-                    updates on appointment availability. Ensures double bookings
-                    are avoided, optimizing the schedule for maximum efficiency.
+                    <strong>Scalable and Flexible:</strong> As your practice
+                    grows, custom software can be scaled and adapted to meet
+                    your evolving needs.
                   </li>
                   <li>
-                    <strong>Integrated Patient Management:</strong> Stores
-                    patient information securely and allows easy access to
-                    medical records. Facilitates smooth check-ins and maintains
-                    a comprehensive patient history.
-                  </li>
-                  <li>
-                    <strong>Advanced Analytics:</strong> Offers detailed reports
-                    on appointment trends, patient demographics, and no-show
-                    rates. Helps practices understand patient behaviors and
-                    optimize scheduling processes accordingly.
-                  </li>
-                  <li>
-                    <strong>Seamless EHR Integration:</strong> Integrates with
-                    popular electronic health record (EHR) systems such as
-                    NexHealth, Open Dental, and DrChrono. Ensures that all
-                    patient data is synchronized across platforms, reducing
-                    duplication and errors.
-                  </li>
-                  <li>
-                    <strong>HIPAA-Compliant Data Security:</strong> Built with
-                    robust security measures to protect patient information.
-                    Complies with HIPAA regulations, ensuring patient data
-                    privacy and security.
+                    <strong>Dedicated Support:</strong> Our development team
+                    provides ongoing support and maintenance to ensure your
+                    software remains up-to-date and performs optimally.
                   </li>
                 </ul>
 
                 <h4>Benefits for Your Practice:</h4>
                 <ul>
                   <li>
-                    <strong>Enhanced Patient Experience:</strong> Patients enjoy
-                    a hassle-free booking process with easy access to available
-                    appointments. Reduces waiting times and improves overall
-                    patient satisfaction.
+                    <strong>Improved Efficiency:</strong> Streamline your
+                    operations with software solutions tailored to your specific
+                    workflows and processes.
                   </li>
                   <li>
                     <strong>Operational Efficiency:</strong> Frees up staff time
@@ -103,9 +77,9 @@ const DevDetailsContent: React.FC = () => {
                   </li>
                   <li>
                     <strong>Scalability:</strong> Whether your practice has one
-                    location or multiple, Apointoo scales with your needs.
-                    Supports growth without compromising on performance or
-                    efficiency.
+                    location or multiple, our custom solutions scale with your
+                    needs. Supports growth without compromising on performance
+                    or efficiency.
                   </li>
                   <li>
                     <strong>Cost-Effective:</strong> Eliminates the need for
@@ -119,31 +93,29 @@ const DevDetailsContent: React.FC = () => {
                 <ul>
                   <li>
                     <strong>Small Practices:</strong> Ideal for small clinics
-                    looking to improve their appointment scheduling without the
-                    need for a complex system.
+                    looking to improve their operations with custom software
+                    tailored to their needs.
                   </li>
                   <li>
                     <strong>Large Healthcare Facilities:</strong> Supports
                     larger healthcare providers with multiple departments and
-                    locations, ensuring all appointments are managed
-                    efficiently.
+                    locations, ensuring all operations are managed efficiently.
                   </li>
                   <li>
                     <strong>Specialty Practices:</strong> Tailored to meet the
                     specific needs of specialty practices, from dental clinics
-                    to physiotherapy centers, ensuring a customized scheduling
-                    experience.
+                    to physiotherapy centers, ensuring a customized experience.
                   </li>
                 </ul>
 
                 <p>
-                  Transform your practice’s scheduling challenges into
-                  streamlined, efficient processes with Apointoo. Experience the
-                  benefits of a robust appointment scheduling solution designed
-                  to meet the unique needs of healthcare practices.
+                  Transform your practice’s challenges into streamlined,
+                  efficient processes with our custom software development
+                  solutions. Experience the benefits of software designed to
+                  meet the unique needs of healthcare practices.
                 </p>
 
-                <div className="car-service-list-wrap">
+                <div className="service-list-wrap">
                   <div className="row align-items-center">
                     <div className="col-lg-6 col-md-6">
                       <div className="service-list-img">
@@ -156,28 +128,28 @@ const DevDetailsContent: React.FC = () => {
                       </div>
                     </div>
 
-                    <div className="col-lg-6 col-md-6">
+                    <div className="col-lg-4 col-md-6">
                       <div className="car-service-list">
                         <ul>
                           <li>
                             <i className="bx bx-check"></i>
-                            Engine bay cleaned and dressed
+                            Improved Efficiency
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            Door card panels cleaned
+                            Enhanced Patient Experience
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            Plastic trim enhanced
+                            Real-Time Availability
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            Paint surface clay barred
+                            Advanced Analytics Integration
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            Alloy wheel treatment inside and out
+                            Less Administrative Work
                           </li>
                         </ul>
                       </div>
