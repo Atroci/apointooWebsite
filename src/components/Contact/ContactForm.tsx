@@ -75,7 +75,8 @@ const ContactForm: React.FC = () => {
           <h2>Drop us a message for any query</h2>
           <p>
             If you have any questions or need assistance, feel free to reach out
-            to us. We're here to help you streamline your healthcare practice.
+            to us. We&apos;re here to help you streamline your healthcare
+            practice.
           </p>
         </div>
 

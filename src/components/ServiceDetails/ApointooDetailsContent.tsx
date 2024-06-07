@@ -51,7 +51,7 @@ const DevDetailsContent: React.FC = () => {
                   </li>
                   <li>
                     <strong>Customizable Booking Pages:</strong> Personalize
-                    booking pages to match your practice's branding. Allows
+                    booking pages to match your practice&apos;s branding. Allows
                     patients to book appointments online at their convenience.
                   </li>
                   <li>

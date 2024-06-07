@@ -24,7 +24,8 @@ const FaqContent: React.FC = () => {
                   <AccordionItem uuid="a">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        How can Appointoo help improve my practice's efficiency?
+                        How can Appointoo help improve my practice&apos;s
+                        efficiency?
                       </AccordionItemButton>
                     </AccordionItemHeading>
 
@@ -44,13 +45,13 @@ const FaqContent: React.FC = () => {
                   <AccordionItem uuid="b">
                     <AccordionItemHeading>
                       <AccordionItemButton>
-                        Is my patients' data secure with Appointoo?
+                        Is my patients data secure with Appointoo?
                       </AccordionItemButton>
                     </AccordionItemHeading>
 
                     <AccordionItemPanel>
                       <p>
-                        es, your patients' data security is our top priority.
+                        es, your patients data security is our top priority.
                         Appointoo is built to not store any patient information,
                         ensuring compliance and peace of mind. If needed,
                         patient information storage can be requested as a
@@ -69,10 +70,10 @@ const FaqContent: React.FC = () => {
                     <AccordionItemPanel>
                       <p>
                         Appointoo is designed for quick implementation with
-                        minimal disruption to your practice’s daily operations.
-                        Our dedicated support team is here to assist you every
-                        step of the way, ensuring a smooth transition and fast
-                        deployment.
+                        minimal disruption to your practice&apos;s daily
+                        operations. Our dedicated support team is here to assist
+                        you every step of the way, ensuring a smooth transition
+                        and fast deployment.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>
@@ -98,16 +99,15 @@ const FaqContent: React.FC = () => {
                     <AccordionItemHeading>
                       <AccordionItemButton>
                         How does Appointoo help in tracking patient bookings and
-                        improving marketing efforts?{" "}
+                        improving marketing efforts?
                       </AccordionItemButton>
                     </AccordionItemHeading>
                     <AccordionItemPanel>
                       <p>
                         Appointoo integrates with tools like Google Analytics to
-                        track and understand your patients' booking journey.
-                        This provides valuable insights that can help you
-                        improve your marketing efforts and enhance patient
-                        experience.
+                        track and understand your patients booking journey. This
+                        provides valuable insights that can help you improve
+                        your marketing efforts and enhance patient experience.
                       </p>
                     </AccordionItemPanel>
                   </AccordionItem>

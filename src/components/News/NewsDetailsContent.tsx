@@ -1,13 +1,26 @@
+// src/components/News/NewsDetailsContent.tsx
 "use client";
 
 import React from "react";
-import NewsSidebar from "./NewsSidebar";
 import Link from "next/link";
-import CommentsArea from "./CommentsArea";
+import Image from "next/image";
+import NewsSidebar from "@/components/News/NewsSidebar"; // Using alias
+import CommentsArea from "@/components/News/CommentsArea"; // Using alias
 import { SliceZone } from "@prismicio/react";
-import { components } from "../../slices";
+import { components } from "@/slices"; // Using alias
+import { Post } from "@/libs/types/post"; // Using alias
 
-const NewsDetailsContent: React.FC = ({}) => {
+type NewsDetailsContentProps = {
+  currentPost: Post;
+  nextPost: Post | null;
+  prevPost: Post | null;
+};
+
+const NewsDetailsContent: React.FC<NewsDetailsContentProps> = ({
+  currentPost,
+  nextPost,
+  prevPost,
+}) => {
   return (
     <>
       <div className="news-details-area ptb-100">
@@ -15,84 +28,24 @@ const NewsDetailsContent: React.FC = ({}) => {
           <div className="row">
             <div className="col-lg-8 col-md-12">
               <div className="blog-details-desc">
-                <div className="article-image"></div>
+                <div className="article-image">
+                  {currentPost.data.image && (
+                    <Image
+                      src={currentPost.data.image.url}
+                      alt={currentPost.data.image.alt}
+                      width={800} // Set appropriate width
+                      height={600} // Set appropriate height
+                      layout="responsive" // Use responsive layout
+                    />
+                  )}
+                </div>
 
                 <div className="article-content">
-                  <div className="entry-meta">
-                    <ul>
-                      <li>
-                        <span>Posted On:</span> February 20 , 2020
-                      </li>
-                      <li>
-                        <span>Posted By: </span>
-                        <Link href="#">John Anderson</Link>
-                      </li>
-                    </ul>
-                  </div>
-
-                  <h3>
-                    Web development the best work in the future for the world
-                  </h3>
-
-                  <p>
-                    Quuntur magni dolores eos qui ratione voluptatem sequi
-                    nesciunt. Neque porro quia non numquam eius modi tempora
-                    incidunt ut labore et dolore magnam dolor sit, consectetur.
-                  </p>
-
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in sed quia non
-                    numquam eius modi tempora incidunt ut labore et dolore
-                    magnam aliquam quaerat.
-                  </p>
-
-                  <blockquote className="flaticon-quote">
-                    <p>
-                      Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                      Repellendus aliquid praesentium eveniet illum asperiores,
-                      quidem, ipsum voluptatum numquam ducimus nisi
-                      exercitationem dolorum facilis.
-                    </p>
-                  </blockquote>
-
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in sed quia non
-                    numquam eius modi tempora incidunt ut labore et dolore
-                    magnam aliquam quaerat. Lorem ipsum dolor sit amet,
-                    consectetur adipisicing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi
-                    ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in sed quia non numquam eius modi tempora
-                    incidunt ut labore et dolore magnam aliquam quaerat.
-                  </p>
-
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in sed quia non
-                    numquam eius modi tempora incidunt ut labore et dolore
-                    magnam aliquam quaerat.
-                  </p>
-
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                    sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in sed quia non
-                    numquam.
-                  </p>
+                  <h1>{currentPost.data.meta_title}</h1>
+                  <SliceZone
+                    slices={currentPost.data.slices}
+                    components={components}
+                  />
                 </div>
 
                 <div className="article-footer">
@@ -106,22 +59,38 @@ const NewsDetailsContent: React.FC = ({}) => {
                   <div className="article-share">
                     <ul className="social">
                       <li>
-                        <a href="https://www.facebook.com/" target="_blank">
+                        <a
+                          href="https://www.facebook.com/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           <i className="bx bxl-facebook"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="https://www.twitter.com/" target="_blank">
+                        <a
+                          href="https://www.twitter.com/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           <i className="bx bxl-twitter"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="https://www.linkedin.com/" target="_blank">
+                        <a
+                          href="https://www.linkedin.com/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           <i className="bx bxl-linkedin"></i>
                         </a>
                       </li>
                       <li>
-                        <a href="https://www.pinterest.com/" target="_blank">
+                        <a
+                          href="https://www.pinterest.com/"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           <i className="bx bxl-pinterest-alt"></i>
                         </a>
                       </li>
@@ -131,21 +100,27 @@ const NewsDetailsContent: React.FC = ({}) => {
 
                 <div className="post-navigation">
                   <div className="navigation-links">
-                    <div className="nav-previous">
-                      <Link href="#">
-                        <i className="bx bx-left-arrow-alt"></i> Prev Post
-                      </Link>
-                    </div>
-
-                    <div className="nav-next">
-                      <Link href="#">
-                        Next Post <i className="bx bx-right-arrow-alt"></i>
-                      </Link>
-                    </div>
+                    {prevPost && (
+                      <div className="nav-previous">
+                        <Link href={`/blog/${prevPost.uid}`}>
+                          <a>
+                            <i className="bx bx-left-arrow-alt"></i> Prev Post
+                          </a>
+                        </Link>
+                      </div>
+                    )}
+                    {nextPost && (
+                      <div className="nav-next">
+                        <Link href={`/blog/${nextPost.uid}`}>
+                          <a>
+                            Next Post <i className="bx bx-right-arrow-alt"></i>
+                          </a>
+                        </Link>
+                      </div>
+                    )}
                   </div>
                 </div>
 
-                {/* Comments Area */}
                 <CommentsArea />
               </div>
             </div>
