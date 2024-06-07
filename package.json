@@ -18,13 +18,16 @@
     "@types/fslightbox-react": "^1.7.7",
     "animate.css": "^4.1.1",
     "aos": "^2.3.4",
+    "axios": "^1.7.2",
     "fslightbox-react": "^1.7.6",
     "next": "^14.2.3",
+    "next-connect": "^1.0.0",
     "react": "^18",
     "react-accessible-accordion": "^5.0.0",
     "react-dom": "^18",
     "sharp": "^0.33.2",
-    "swiper": "^11.0.5"
+    "swiper": "^11.0.5",
+    "yup": "^1.4.0"
   },
   "devDependencies": {
     "@slicemachine/adapter-next": "^0.3.41",

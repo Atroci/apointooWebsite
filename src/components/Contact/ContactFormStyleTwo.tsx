@@ -1,23 +1,27 @@
 "use client";
 
 import React, { useState } from "react";
+import axios from "axios";
 
 interface ContactFormData {
-  name: string;
+  firstname: string;
   email: string;
-  number: string;
+  phonenumber: string;
   subject: string;
   message: string;
 }
 
 const ContactFormStyleTwo: React.FC = () => {
   const [formData, setFormData] = useState<ContactFormData>({
-    name: "",
+    firstname: "",
     email: "",
-    number: "",
+    phonenumber: "",
     subject: "",
     message: "",
   });
+  const [loading, setLoading] = useState(false);
+  const [successMessage, setSuccessMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
 
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -29,10 +33,30 @@ const ContactFormStyleTwo: React.FC = () => {
     }));
   };
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // Here you can handle form submission, for example, send data to a server or perform client-side validation
-    console.log(formData);
+    setLoading(true);
+    setSuccessMessage("");
+    setErrorMessage("");
+
+    try {
+      const response = await axios.post("/api/mailbox-brevo", formData);
+      setLoading(false);
+      setSuccessMessage("Your message has been sent successfully!");
+      // Reset form data
+      setFormData({
+        firstname: "",
+        email: "",
+        phonenumber: "",
+        subject: "",
+        message: "",
+      });
+    } catch (error) {
+      setLoading(false);
+      setErrorMessage(
+        "There was an error sending your message. Please try again."
+      );
+    }
   };
 
   return (
@@ -50,10 +74,10 @@ const ContactFormStyleTwo: React.FC = () => {
                   <div className="form-group">
                     <input
                       type="text"
-                      name="name"
-                      placeholder="Name"
+                      name="firstname"
+                      placeholder="First Name"
                       className="form-control"
-                      value={formData.name}
+                      value={formData.firstname}
                       onChange={handleChange}
                       required
                     />
@@ -78,10 +102,10 @@ const ContactFormStyleTwo: React.FC = () => {
                   <div className="form-group">
                     <input
                       type="text"
-                      name="number"
-                      placeholder="Phone number"
+                      name="phonenumber"
+                      placeholder="Phone Number"
                       className="form-control"
-                      value={formData.number}
+                      value={formData.phonenumber}
                       onChange={handleChange}
                       required
                     />
@@ -119,9 +143,20 @@ const ContactFormStyleTwo: React.FC = () => {
 
                 <div className="col-lg-12 col-sm-12">
                   <button type="submit" className="default-btn btn-two">
-                    Send Message
+                    {loading ? "Sending..." : "Send Message"}
                   </button>
                 </div>
+
+                {successMessage && (
+                  <div className="col-lg-12 col-sm-12">
+                    <div className="alert alert-success">{successMessage}</div>
+                  </div>
+                )}
+                {errorMessage && (
+                  <div className="col-lg-12 col-sm-12">
+                    <div className="alert alert-danger">{errorMessage}</div>
+                  </div>
+                )}
               </div>
             </form>
           </div>
