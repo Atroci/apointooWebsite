@@ -66,8 +66,11 @@ const Navbar: React.FC = () => {
               </ul>
 
               <div className="others-options">
-                <Link href="/contact" className="default-btn">
-                  Get a Quote <i className="bx bx-log-in-circle"></i>
+                <Link
+                  href="https://cal.com/hugo-carvalho/apointoo-demo"
+                  className="default-btn"
+                >
+                  Schedule a Demo <i className="bx bx-log-in-circle"></i>
                 </Link>
               </div>
             </div>

@@ -16,9 +16,9 @@ export default function Page() {
         homePageText="Home"
         activePageText="Contact"
       />
-
+      {/*
       <ContactInfo />
-
+*/}
       <ContactForm />
 
       <Footer />

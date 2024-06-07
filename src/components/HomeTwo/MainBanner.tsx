@@ -54,7 +54,10 @@ const MainBanner: React.FC = () => {
                   data-aos-duration="800"
                   data-aos-delay="300"
                 >
-                  <Link href="/contact" className="default-btn">
+                  <Link
+                    href="https://cal.com/hugo-carvalho/apointoo-demo"
+                    className="default-btn"
+                  >
                     Schedule Demo
                   </Link>
                 </div>

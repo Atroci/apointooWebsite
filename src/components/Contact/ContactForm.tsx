@@ -68,7 +68,7 @@ const ContactForm: React.FC = () => {
   };
 
   return (
-    <div className="main-contact-area pb-100">
+    <div className="main-contact-area ptb-100">
       <div className="container">
         <div className="section-title">
           <span>Contact Us</span>
@@ -172,7 +172,7 @@ const ContactForm: React.FC = () => {
                       </div>
                     </div>
 
-                    <div className="col-lg-12 col-sm-12">
+                    <div className="col-lg-12 col-sm-12 pb-50">
                       <button type="submit" className="default-btn btn-two">
                         {loading ? "Sending..." : "Send Message"}
                       </button>

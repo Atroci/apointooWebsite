@@ -96,24 +96,24 @@ export const menus = [
   // },
   //],
   //},
-  {
-    label: "Blog",
-    link: "/blog",
-    //  submenu: [
-    //  {
-    //  label: "News Grid",
-    //    link: "/news/",
-    // },
-    //{
-    // label: "News Right Sidebar",
-    // link: "/news/news-right-sidebar/",
-    //},
-    // {
-    //  label: "News Details",
-    // link: "/news/news-details/",
-    // },
-    //],
-  },
+  //   {
+  // label: "Blog",
+  //   link: "/blog",
+  //  submenu: [
+  //  {
+  //  label: "News Grid",
+  //    link: "/news/",
+  // },
+  //{
+  // label: "News Right Sidebar",
+  // link: "/news/news-right-sidebar/",
+  //},
+  // {
+  //  label: "News Details",
+  // link: "/news/news-details/",
+  // },
+  //],
+  //  },
   {
     label: "Contact",
     link: "/contact/",
