@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "../../../components/Layouts/Navbar";
 import PageBanner from "../../../components/Common/PageBanner";
-import ServiceDetailsContent from "../../../components/ServiceDetails/ServiceDetailsContent";
+import ApointooDetailsContent from "../../../components/ServiceDetails/ApointooDetailsContent";
 import Footer from "../../../components/Layouts/Footer";
 
 export default function Page() {
@@ -10,13 +10,13 @@ export default function Page() {
       <Navbar />
 
       <PageBanner
-        pageTitle="Service Details"
+        pageTitle="Appointment Schedule Software"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Service Details"
+        activePageText="Appointment Schedule Software"
       />
 
-      <ServiceDetailsContent />
+      <ApointooDetailsContent />
 
       <Footer />
     </>

@@ -10,10 +10,10 @@ export default function Page() {
       <Navbar />
 
       <PageBanner
-        pageTitle="Service Details"
+        pageTitle="Custom Software Development"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="Service Details"
+        activePageText="Custom Software Development"
       />
 
       <ServiceDetailsContent />
