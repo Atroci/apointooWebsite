@@ -1,6 +1,7 @@
 "use client";
 
 import React, { FormEvent, useState } from "react";
+import axios from "axios";
 
 interface FormValues {
   name: string;
@@ -19,6 +20,10 @@ const AskQuestionForm: React.FC = () => {
     message: "",
   });
 
+  const [loading, setLoading] = useState(false);
+  const [successMessage, setSuccessMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
+
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
@@ -26,10 +31,30 @@ const AskQuestionForm: React.FC = () => {
     setFormValues({ ...formValues, [name]: value });
   };
 
-  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log("Form submitted", formValues);
+    setLoading(true);
+    setSuccessMessage("");
+    setErrorMessage("");
+
+    try {
+      const response = await axios.post("/api/submit-question", formValues); // Update the URL to your API endpoint
+      setLoading(false);
+      setSuccessMessage("Your question has been submitted successfully!");
+      // Reset form data
+      setFormValues({
+        name: "",
+        email: "",
+        number: "",
+        subject: "",
+        message: "",
+      });
+    } catch (error) {
+      setLoading(false);
+      setErrorMessage(
+        "There was an error submitting your question. Please try again."
+      );
+    }
   };
 
   return (
@@ -116,9 +141,20 @@ const AskQuestionForm: React.FC = () => {
 
                 <div className="col-lg-12 col-sm-12">
                   <button type="submit" className="default-btn btn-two">
-                    Send Message
+                    {loading ? "Sending..." : "Send Message"}
                   </button>
                 </div>
+
+                {successMessage && (
+                  <div className="col-lg-12 col-sm-12">
+                    <div className="alert alert-success">{successMessage}</div>
+                  </div>
+                )}
+                {errorMessage && (
+                  <div className="col-lg-12 col-sm-12">
+                    <div className="alert alert-danger">{errorMessage}</div>
+                  </div>
+                )}
               </div>
             </form>
           </div>
@@ -129,4 +165,3 @@ const AskQuestionForm: React.FC = () => {
 };
 
 export default AskQuestionForm;
-

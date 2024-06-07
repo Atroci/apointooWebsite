@@ -37,9 +37,8 @@ const dosis = Dosis({
 });
 
 export const metadata: Metadata = {
-  title: "Apointoo - Booking software for healthcare practices.",
-  description:
-    "Simplify appointment booking and management for your healthcare practice with Appointoo.",
+  title: "Apointoo - Appointment Schedule Software",
+  description: "Simplify Your Practice’s Scheduling Challenges.",
 };
 
 export default function RootLayout({
