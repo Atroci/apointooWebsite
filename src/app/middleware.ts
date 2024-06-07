@@ -12,10 +12,28 @@ export function middleware(req: NextRequest) {
 
   // Protect routes
   const protectedRoutes = ['/dashboard', '/profile'];
-
   if (protectedRoutes.includes(pathname) && !isAuthenticated) {
     // Redirect to login page if not authenticated
     return NextResponse.redirect(new URL('/login', req.url));
+  }
+
+  // List of excluded paths that should redirect to /contact
+  const excludedPaths = [
+    '/team/:path*',
+    '/blog/:path*',
+    '/contact/:path*',
+    '/faq/:path*',
+    '/solutions/:path*',
+  ];
+
+  // Check if pathname matches any excluded path pattern
+  const shouldRedirect = excludedPaths.some((pattern) => {
+    const regex = new RegExp(`^${pattern.replace(':path*', '.*')}$`);
+    return regex.test(pathname);
+  });
+
+  if (shouldRedirect) {
+    return NextResponse.redirect(new URL('/contact', req.url));
   }
 
   // Add headers
@@ -27,20 +45,20 @@ export function middleware(req: NextRequest) {
 
 export const config = {
   matcher: [
-    '!/dashboard',
-    '!/profile',
-    '!/api/:path*',
-    // Exclude paths
+    '/dashboard',
+    '/profile',
+    '/api/:path*',
+    // Paths to be handled by the middleware (excluding the ones needing redirection)
     '/about/:path*',
-    '!/auth/:path*',
+    '/auth/:path*',
     '/blog/:path*',
-    '!/case-studies/:path*',
-    '!/coming-soon/:path*',
+    '/case-studies/:path*',
+    '/coming-soon/:path*',
     '/contact/:path*',
     '/faq/:path*',
-    '!/slice-simulator/:path*',
+    '/slice-simulator/:path*',
     '/solutions/:path*',
-    '!/team/:path*',
-    '!/testimonials/:path*',
+    '/team/:path*',
+    '/testimonials/:path*',
   ],
 };
