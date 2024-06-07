@@ -32,10 +32,7 @@ const ServicesStyleFour: React.FC = () => {
                     <h3>Healthcare Practices</h3>
                     <span>All types of services</span>
 
-                    <Link
-                      href="/services/service-details/"
-                      className="right-icon"
-                    >
+                    <Link href="#" className="right-icon">
                       <span className="bx bx-chevrons-right"></span>
                     </Link>
                   </div>
@@ -47,10 +44,7 @@ const ServicesStyleFour: React.FC = () => {
                     <h3>Chiropractic Offices</h3>
                     <span>All types of services</span>
 
-                    <Link
-                      href="/services/service-details/"
-                      className="right-icon"
-                    >
+                    <Link href="#" className="right-icon">
                       <span className="bx bx-chevrons-right"></span>
                     </Link>
                   </div>
@@ -62,10 +56,7 @@ const ServicesStyleFour: React.FC = () => {
                     <h3>Fitness and Personal Training</h3>
                     <span>All types of services</span>
 
-                    <Link
-                      href="/services/service-details/"
-                      className="right-icon"
-                    >
+                    <Link href="#" className="right-icon">
                       <span className="bx bx-chevrons-right"></span>
                     </Link>
                   </div>
@@ -77,10 +68,7 @@ const ServicesStyleFour: React.FC = () => {
                     <h3>Wellness and Spa Centers</h3>
                     <span>All types of services</span>
 
-                    <Link
-                      href="/services/service-details/"
-                      className="right-icon"
-                    >
+                    <Link href="#" className="right-icon">
                       <span className="bx bx-chevrons-right"></span>
                     </Link>
                   </div>
@@ -102,10 +90,7 @@ const ServicesStyleFour: React.FC = () => {
                     <h3>Dental Clinics</h3>
                     <span>All types of services</span>
 
-                    <Link
-                      href="/services/service-details/"
-                      className="right-icon"
-                    >
+                    <Link href="#" className="right-icon">
                       <span className="bx bx-chevrons-right"></span>
                     </Link>
                   </div>
@@ -117,10 +102,7 @@ const ServicesStyleFour: React.FC = () => {
                     <h3>Veterinary Clinics</h3>
                     <span>All types of services</span>
 
-                    <Link
-                      href="/services/service-details/"
-                      className="right-icon"
-                    >
+                    <Link href="#" className="right-icon">
                       <span className="bx bx-chevrons-right"></span>
                     </Link>
                   </div>
@@ -132,10 +114,7 @@ const ServicesStyleFour: React.FC = () => {
                     <h3>Physical Therapy Centers</h3>
                     <span>All types of services</span>
 
-                    <Link
-                      href="/services/service-details/"
-                      className="right-icon"
-                    >
+                    <Link href="#" className="right-icon">
                       <span className="bx bx-chevrons-right"></span>
                     </Link>
                   </div>
@@ -147,10 +126,7 @@ const ServicesStyleFour: React.FC = () => {
                     <h3>Mental Health Services</h3>
                     <span>All types of services</span>
 
-                    <Link
-                      href="/services/service-details/"
-                      className="right-icon"
-                    >
+                    <Link href="#" className="right-icon">
                       <span className="bx bx-chevrons-right"></span>
                     </Link>
                   </div>

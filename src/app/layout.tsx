@@ -20,6 +20,9 @@ import ScrollToTop from "@/components/Layouts/ScrollToTop";
 import { PrismicPreview } from "@prismicio/next";
 import { repositoryName } from "../prismicio";
 
+// GTM
+import { GoogleTagManager } from "@next/third-parties/google";
+
 // For all body text font
 const open_sans = Open_Sans({
   weight: ["300", "400", "500", "600", "700", "800"],
@@ -49,6 +52,8 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${open_sans.variable} ${dosis.variable}`}>
       <body>
+        <GoogleTagManager gtmId="GTM-TN56ZQP8" />
+
         {children}
         <PrismicPreview repositoryName={repositoryName} />
 

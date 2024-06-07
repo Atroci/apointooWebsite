@@ -20,10 +20,14 @@ export function middleware(req: NextRequest) {
   // List of excluded paths that should redirect to /contact
   const excludedPaths = [
     '/team/:path*',
-    '/blog/:path*',
-    '/contact/:path*',
-    '/faq/:path*',
-    '/solutions/:path*',
+    '/api/:path*',
+    '/dashboard',
+    '/profile',
+    '/case-studies/:path*',
+    '/coming-soon/:path*',
+    '/slice-simulator/:path*',
+      '/testimonials/:path*',
+
   ];
 
   // Check if pathname matches any excluded path pattern

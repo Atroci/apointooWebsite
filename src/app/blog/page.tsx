@@ -10,10 +10,10 @@ export default function Page() {
       <Navbar />
 
       <PageBanner
-        pageTitle="News Grid"
+        pageTitle="Blog"
         homePageUrl="/"
         homePageText="Home"
-        activePageText="News Grid"
+        activePageText="Blog"
       />
 
       <NewsGridCard />

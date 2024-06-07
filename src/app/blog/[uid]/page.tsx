@@ -31,10 +31,10 @@ export default async function Page({ params }: { params: Params }) {
     <>
       <Navbar />
       <PageBanner
-        pageTitle={page.data.meta_title || "Blog Details"}
+        pageTitle={page.data.meta_title || "Blog Article"}
         homePageUrl="/"
         homePageText="Home"
-        activePageText={page.data.meta_title || "Blog Details"}
+        activePageText={page.data.meta_title || "Blog Article"}
       />
       <NewsDetailsContent />
       <SliceZone slices={page.data.slices} components={components} />
